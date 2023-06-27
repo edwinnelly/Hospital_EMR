@@ -28,7 +28,7 @@
 
 
 <link rel="stylesheet" href="../assets/vendor/select2/select2.css" />
-
+<link rel="stylesheet" href="assets/css/inbox.css">
 <link rel="stylesheet" href="assets/css/main.css">
 <link rel="stylesheet" href="assets/css/color_skins.css">
 <!---->

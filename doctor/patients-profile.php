@@ -99,12 +99,12 @@ $app = new controller;
                                                         x-placement="top-start"
                                                         style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
                                                         <a class="dropdown-item"
-                                                            href="#">Patient
+                                                            href="test1.php">Patient
                                                             Folder
                                                         </a>
                                                         <a class="dropdown-item" href="#">Assign to Doctor</a>
                                                         <a class="dropdown-item" href="#">Assign to Specialist</a>
-                                                        <a class="dropdown-item" href="#">Admit Patient</a>
+                                                        <a class="dropdown-item" href="#">Admit</a>
                                                         <hr>
                                                     </div>
                                                 </div>
