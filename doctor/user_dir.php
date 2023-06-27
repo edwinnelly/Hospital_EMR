@@ -6,7 +6,7 @@ $app = new controller;
 <!doctype html>
 <html lang="en">
 <head>
-    <title>:: Hospital Doctor :: Dashboard</title>
+    <title>:: Hospital Doctor : Dashboard</title>
     <meta name="description" content="Place the meta description text here.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
