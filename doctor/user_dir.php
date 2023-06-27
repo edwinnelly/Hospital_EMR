@@ -6,10 +6,10 @@ $app = new controller;
 <!doctype html>
 <html lang="en">
 <head>
-   <?php include_once "component/style.php"?>
+   <?php include_once "component/meta_config.php"?>
 </head>
 <body class="theme-blue">
-    
+
 <div id="wrapper">
     <?php
     require_once 'component/header.php';

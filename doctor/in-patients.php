@@ -29,10 +29,10 @@ $app = new controller;
                     <div class="row mb-3">
                         <div class="col-lg-5 col-md-8 col-sm-12">
                             <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i
-                                        class="fa fa-arrow-left"></i></a>Patient Profile</h2>
+                                        class="fa fa-arrow-left"></i></a>In Patient</h2>
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="user_dir.php"><i class="icon-home"></i></a></li>
-                                <li class="breadcrumb-item active">Patient Profile</li>
+                                <li class="breadcrumb-item active">In Patient</li>
                             </ul>
                         </div>
                         <div class="col-lg-7 col-md-4 col-sm-12 text-right">
@@ -48,8 +48,8 @@ $app = new controller;
                             <div class="header">
                                 <h2> In Patients</h2>
 
-                                <a href="add-patient.php">
-                                    <button class="btn btn-primary float-right">Add Patient</button>
+                                <a href="user_dir.php">
+                                    <button class="btn btn-primary float-right">My Dashboard</button>
                                 </a>
                             </div>
                             <div class="col-lg-12 ">
@@ -59,15 +59,16 @@ $app = new controller;
                                 <table class="table table-bordered table-hover js-basic-example dataTable table-custom">
                                     <thead>
                                         <tr>
-                                          <th> #</th>
+                                            <th> #</th>
                                             <th>Patients Name</th>
                                             <th>Age</th>
                                             <th>Sex</th>
-                                            <th>Occupation</th>
-                                            <th>Marital Status</th>
-                                            <th>Phone Number</th>
-                                            <th>Email Address</th>
-                                            <th>Address</th>
+                                            <th>Hospital Number</th>
+                                            <th>Room No</th>
+                                            <th>Diagnosis</th>
+                                            <th>Admitting Doc</th>
+                                            <th>Days of Admission</th>
+                                            <th>Alarm</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -88,6 +89,7 @@ $app = new controller;
                                             <td>...</td>
                                             <td>...</td>
                                             <td>...</td>
+                                            <td>...</td>
                                             <td>
                                                 <div class="btn-group" role="group">
                                                     <button id="btnGroupDrop1" type="button"
@@ -99,12 +101,19 @@ $app = new controller;
                                                         x-placement="top-start"
                                                         style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
                                                         <a class="dropdown-item"
-                                                            href="#">Patient
-                                                            Folder
+                                                            href="vendor-edit?fib=<?= base64_encode($cc->id+9020); ?>">Scan
+                                                            Case Note
                                                         </a>
-                                                        <a class="dropdown-item" href="#">Assign to Doctor</a>
-                                                        <a class="dropdown-item" href="#">Assign to Specialist</a>
-                                                        <a class="dropdown-item" href="#">Admit Patient</a>
+                                                        <a class="dropdown-item" href="#">Alarm</a>
+                                                        <a class="dropdown-item" href="#">Vitals</a>
+                                                        <a class="dropdown-item" href="#">Input/Output Chart</a>
+                                                        <a class="dropdown-item" href="#">Early Warning Score</a>
+                                                        <a class="dropdown-item" href="#">Pain Score</a>
+                                                        <a class="dropdown-item" href="#">Folder EMR</a>
+                                                        <a class="dropdown-item" href="#">Drug Administration</a>
+                                                        <a class="dropdown-item" href="#">Lab Profile</a>
+                                                        <a class="dropdown-item" href="#">Radiograph</a>
+                                                        <a class="dropdown-item" href="#">Comments</a>
                                                         <hr>
                                                     </div>
                                                 </div>

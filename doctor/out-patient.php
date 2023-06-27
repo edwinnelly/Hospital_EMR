@@ -29,10 +29,10 @@ $app = new controller;
                     <div class="row mb-3">
                         <div class="col-lg-5 col-md-8 col-sm-12">
                             <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i
-                                        class="fa fa-arrow-left"></i></a>Patient Profile</h2>
+                                        class="fa fa-arrow-left"></i></a>Out Patient</h2>
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="user_dir.php"><i class="icon-home"></i></a></li>
-                                <li class="breadcrumb-item active">Patient Profile</li>
+                                <li class="breadcrumb-item active">Out Patient</li>
                             </ul>
                         </div>
                         <div class="col-lg-7 col-md-4 col-sm-12 text-right">
@@ -46,11 +46,33 @@ $app = new controller;
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="header">
-                                <h2> In Patients</h2>
+                                <h2> Out Patient</h2>
+                                <div class="d-flex mt-3">
+                                    <div class="d-flex mr-3">
+                                        <span class="bg-danger text-white pt-2 pr-3 pl-3 pb-2 curve-border">0</span>
+                                        <span class="text-secondary mt-2 ml-2 fs-5"> Total Out patient</span>
+                                    </div>
+                                    <div class="d-flex mr-3">
+                                        <span class="bg-success text-white pt-2 pr-3 pl-3 pb-2 curve-border">0</span>
+                                        <span class="text-secondary mt-2 ml-2 fs-5"> Seen</span>
+                                    </div>
+                                    <div class="d-flex">
+                                        <span class="bg-primary text-white pt-2 pr-3 pl-3 pb-2 curve-border">0</span>
+                                        <span class="text-secondary mt-2 ml-2 fs-5"> Pending</span>
+                                    </div>
 
-                                <a href="add-patient.php">
-                                    <button class="btn btn-primary float-right">Add Patient</button>
-                                </a>
+                                </div>
+                                <div class="d-flex float-right">
+                                    <a href="#">
+                                        <button class="btn btn-danger float-right mr-2">My Queue</button>
+                                    </a>
+                                    <a href="#">
+                                        <button class="btn btn-danger float-right mr-2">All Queue</button>
+                                    </a>
+                                    <a href="#">
+                                        <button class="btn btn-danger float-right">Specialist Queue</button>
+                                    </a>
+                                </div>
                             </div>
                             <div class="col-lg-12 ">
 
@@ -59,15 +81,15 @@ $app = new controller;
                                 <table class="table table-bordered table-hover js-basic-example dataTable table-custom">
                                     <thead>
                                         <tr>
-                                          <th> #</th>
+                                            <th> #</th>
                                             <th>Patients Name</th>
+                                            <th>Hospital Number</th>
                                             <th>Age</th>
                                             <th>Sex</th>
-                                            <th>Occupation</th>
-                                            <th>Marital Status</th>
-                                            <th>Phone Number</th>
-                                            <th>Email Address</th>
-                                            <th>Address</th>
+                                            <th>Specialty</th>
+                                            <th>Doctor</th>
+                                            <th>Coverage</th>
+                                            <th>Folder Status</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -99,12 +121,19 @@ $app = new controller;
                                                         x-placement="top-start"
                                                         style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
                                                         <a class="dropdown-item"
-                                                            href="#">Patient
-                                                            Folder
+                                                            href="vendor-edit?fib=<?= base64_encode($cc->id+9020); ?>">Scan
+                                                            Case Note
                                                         </a>
-                                                        <a class="dropdown-item" href="#">Assign to Doctor</a>
-                                                        <a class="dropdown-item" href="#">Assign to Specialist</a>
-                                                        <a class="dropdown-item" href="#">Admit Patient</a>
+                                                        <a class="dropdown-item" href="#">Alarm</a>
+                                                        <a class="dropdown-item" href="#">Vitals</a>
+                                                        <a class="dropdown-item" href="#">Input/Output Chart</a>
+                                                        <a class="dropdown-item" href="#">Early Warning Score</a>
+                                                        <a class="dropdown-item" href="#">Pain Score</a>
+                                                        <a class="dropdown-item" href="#">Folder EMR</a>
+                                                        <a class="dropdown-item" href="#">Drug Administration</a>
+                                                        <a class="dropdown-item" href="#">Lab Profile</a>
+                                                        <a class="dropdown-item" href="#">Radiograph</a>
+                                                        <a class="dropdown-item" href="#">Comments</a>
                                                         <hr>
                                                     </div>
                                                 </div>

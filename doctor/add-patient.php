@@ -6,7 +6,6 @@ $app = new controller;
 <html lang="en">
 
 <head>
-    <title>:: Lentose :: Vendor List</title>
     <?php
     require_once 'component/meta_config.php';
     ?>
@@ -27,18 +26,20 @@ $app = new controller;
         <div id="main-content">
             <div class="container-fluid">
                 <div class="block-header">
-                    <div class="row">
+                <div class="row mb-3">
                         <div class="col-lg-5 col-md-8 col-sm-12">
                             <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i
-                                        class="fa fa-arrow-left"></i></a>Patients Profile</h2>
+                                        class="fa fa-arrow-left"></i></a>Add Patient</h2>
                             <ul class="breadcrumb">
-                                <li class="breadcrumb-item">Add Patient</li>
+                                <li class="breadcrumb-item"><a href="user_dir.php"><i class="icon-home"></i></a></li>
+                                <li class="breadcrumb-item active">Add Patient</li>
                             </ul>
                         </div>
                         <div class="col-lg-7 col-md-4 col-sm-12 text-right">
                             <div class="inlineblock text-center m-r-15 m-l-15 hidden-sm">
-                            </div>
-                            <div class="inlineblock text-center m-r-15 m-l-15 hidden-sm">
+
+                                <div class="inlineblock text-center m-r-15 m-l-15 hidden-sm">
+                                </div>
                             </div>
                         </div>
                     </div>
