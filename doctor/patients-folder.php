@@ -59,8 +59,6 @@
                                             <li class=""><a href="patients-folder.php"><i class="fa fa-circle-o text-danger"></i>Patients
                                                     Dashboard</a>
                                             </li>
-                                            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Case
-                                                    Note</a></li>
                                             <li class=""><a href="#"><i
                                                         class="fa fa-circle-o text-danger"></i>Visit/Appointments</a>
                                             </li>
@@ -96,25 +94,35 @@
                                             </li>
                                         </ul>
 
-                                        <h3 class="label">Labels <a href="app-inbox.html#" class="float-right m-r-10"
-                                                title="Add New Labels"><i class="icon-plus"></i></a></h3>
+                                        <h3 class="label">Case Note</h3>
                                         <ul class="nav">
                                             <li class="">
-                                                <a href="javascript:void(0);"><i
-                                                        class="fa fa-circle text-danger"></i>Web Design<span
-                                                        class="badge badge-primary float-right">5</span></a>
+                                                <a href="#"><i
+                                                        class="fa fa-circle text-danger"></i>Encounters</a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);"><i
-                                                        class="fa fa-circle text-info"></i>Recharge</a>
+                                                <a href="#"><i
+                                                        class="fa fa-circle text-danger"></i>Vitals</a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);"><i
-                                                        class="fa fa-circle text-dark"></i>Paypal</a>
+                                                <a href="#"><i
+                                                        class="fa fa-circle text-danger"></i>Clinical Note</a>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0);"><i
-                                                        class="fa fa-circle text-primary"></i>Family</a>
+                                                <a href="#"><i
+                                                        class="fa fa-circle text-danger"></i>Fluid Chart</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i
+                                                        class="fa fa-circle text-danger"></i>Surgical Note</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i
+                                                        class="fa fa-circle text-danger"></i>Result</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i
+                                                        class="fa fa-circle text-danger"></i>Comments</a>
                                             </li>
                                         </ul>
                                     </div>
