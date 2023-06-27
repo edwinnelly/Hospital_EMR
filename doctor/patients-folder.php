@@ -50,83 +50,7 @@
                                 </a>
                             </div>
                             <div class="mail-inbox">
-                                <div class="mail-left collapse" id="email-nav">
-                                    <div class="mail-compose m-b-20">
-                                        <a href="#" class="btn btn-danger btn-block">Patient Profile</a>
-                                    </div>
-                                    <div class="mail-side">
-                                        <ul class="nav">
-                                            <li class=""><a href="patients-folder.php"><i class="fa fa-circle-o text-danger"></i>Patients
-                                                    Dashboard</a>
-                                            </li>
-                                            <li class=""><a href="#"><i
-                                                        class="fa fa-circle-o text-danger"></i>Visit/Appointments</a>
-                                            </li>
-                                            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Diagnosis
-                                                    History</a>
-                                            </li>
-                                            <li class=""><a href="#"><i
-                                                        class="fa fa-circle-o text-danger"></i>Prescription</a></li>
-                                            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Drug
-                                                    Administration</a>
-                                            </li>
-                                            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Lab
-                                                    Profile</a></li>
-                                            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Patient
-                                                    Bills</a></li>
-                                            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Patient
-                                                    Alert</a></li>
-                                            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Medical
-                                                    Reports</a></li>
-                                            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Discharge
-                                                    Summary</a>
-                                            </li>
-                                            <li class=""><a href="#"><i
-                                                        class="fa fa-circle-o text-danger"></i>Imaging/Attachment</a>
-                                            </li>
-                                            <h3 class="label">Extra Setting <a href="#" class="float-right m-r-10"
-                                                    title="Extra Setting"></a></h3>
-                                            <li class=""><a href="#"><i
-                                                        class="fa fa-circle-o text-danger"></i>Discharge/Close</a>
-                                            </li>
-                                            <li class=""><a href="#"><i
-                                                        class="fa fa-circle-o text-danger"></i>Seen/Back</a>
-                                            </li>
-                                        </ul>
-
-                                        <h3 class="label">Case Note</h3>
-                                        <ul class="nav">
-                                            <li class="">
-                                                <a href="#"><i
-                                                        class="fa fa-circle text-danger"></i>Encounters</a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i
-                                                        class="fa fa-circle text-danger"></i>Vitals</a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i
-                                                        class="fa fa-circle text-danger"></i>Clinical Note</a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i
-                                                        class="fa fa-circle text-danger"></i>Fluid Chart</a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i
-                                                        class="fa fa-circle text-danger"></i>Surgical Note</a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i
-                                                        class="fa fa-circle text-danger"></i>Result</a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i
-                                                        class="fa fa-circle text-danger"></i>Comments</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                               <?php include_once "component/patients_profile_sidebar.php"?>
                                 <div class="mail-right">
                                     <div class="header d-flex align-center">
                                         <h2>Patients Profile</h2>
@@ -281,67 +205,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6">
-                                            <div class="card">
-                                                <div class="body">
-                                                    <ul class="nav nav-tabs-new">
-                                                        <li class="nav-item"><a class="nav-link active"
-                                                                data-toggle="tab"
-                                                                href="page-profile2.html#Overview">Overview</a></li>
-                                                        <li class="nav-item"><a class="nav-link" data-toggle="tab"
-                                                                href="page-profile2.html#Settings">Settings</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="row clearfix text-center">
-                                                <div class="col-12">
-                                                    <div class="card">
-                                                        <div class="body">
-                                                            <input type="text" class="knob" value="22" data-width="70"
-                                                                data-height="70" data-thickness="0.1"
-                                                                data-fgColor="#49c5b6">
-                                                            <h6>Events</h6>
-                                                            <span>12 of this month</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <div class="card">
-                                                        <div class="body">
-                                                            <input type="text" class="knob" value="78" data-width="70"
-                                                                data-height="70" data-thickness="0.1"
-                                                                data-fgColor="#2196f3">
-                                                            <h6>Birthday</h6>
-                                                            <span>4 of this month</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <div class="card">
-                                                        <div class="body">
-                                                            <input type="text" class="knob" value="66" data-width="70"
-                                                                data-height="70" data-thickness="0.1"
-                                                                data-fgColor="#f44336">
-                                                            <h6>Conferences</h6>
-                                                            <span>8 of this month</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <div class="card">
-                                                        <div class="body">
-                                                            <input type="text" class="knob" value="50" data-width="70"
-                                                                data-height="70" data-thickness="0.1"
-                                                                data-fgColor="#4caf50">
-                                                            <h6>Seminars</h6>
-                                                            <span>2 of this month</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <?php include_once "component/patients-overview.php"?>
                                     </div>
                                 </div>
+                            
                             </div>
                         </div>
                     </div>
