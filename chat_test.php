@@ -702,6 +702,6 @@
 <script src="assets/bundles/easypiechart.bundle.js"></script>
 <script src="../assets/vendor/sweetalert/sweetalert.min.js"></script>
 <script src="assets/bundles/mainscripts.bundle.js"></script>
-<script src="assets/js/pages/ui/dialogs.js"></script>
+<script src="ascontroller.phpsets/js/pages/ui/dialogs.js"></script>
 </body>
 </html>

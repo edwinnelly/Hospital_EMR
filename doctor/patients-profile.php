@@ -12,129 +12,130 @@ $app = new controller;
 </head>
 
 <body class="theme-cyan">
-    <div class="page-loader-wrapper">
-        <div class="loader">
-            <div class="m-t-30"><img src="../assets/images/logo-icon.svg" width="48" height="48" alt="Lucid"></div>
-            <p>Please wait...</p>
-        </div>
+<div class="page-loader-wrapper">
+    <div class="loader">
+        <div class="m-t-30"><img src="../assets/images/logo-icon.svg" width="48" height="48" alt="Lucid"></div>
+        <p>Please wait...</p>
     </div>
-    <div id="wrapper">
-        <?php
+</div>
+<div id="wrapper">
+    <?php
     require_once 'component/header.php';
     require_once 'component/sidebar.php';
     ?>
-        <div id="main-content">
-            <div class="container-fluid">
-                <div class="block-header">
-                    <div class="row mb-3">
-                        <div class="col-lg-5 col-md-8 col-sm-12">
-                            <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i
+    <div id="main-content">
+        <div class="container-fluid">
+            <div class="block-header">
+                <div class="row mb-3">
+                    <div class="col-lg-5 col-md-8 col-sm-12">
+                        <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i
                                         class="fa fa-arrow-left"></i></a>Patient Profile</h2>
-                            <ul class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="user_dir.php"><i class="icon-home"></i></a></li>
-                                <li class="breadcrumb-item active">Patient Profile</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-7 col-md-4 col-sm-12 text-right">
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="user_dir.php"><i class="icon-home"></i></a></li>
+                            <li class="breadcrumb-item active">Patient Profile</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-7 col-md-4 col-sm-12 text-right">
+                        <div class="inlineblock text-center m-r-15 m-l-15 hidden-sm">
+
                             <div class="inlineblock text-center m-r-15 m-l-15 hidden-sm">
-
-                                <div class="inlineblock text-center m-r-15 m-l-15 hidden-sm">
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="header">
-                                <h2> In Patients</h2>
+                </div>
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2> In Patients</h2>
 
-                                <a href="add-patient.php">
-                                    <button class="btn btn-primary float-right">Add Patient</button>
-                                </a>
-                            </div>
-                            <div class="col-lg-12 ">
+                            <a href="add-patient.php">
+                                <button class="btn btn-primary float-right">Add Patient</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-12 ">
 
-                            </div>
-                            <div class="body table-responsive">
-                                <table class="table table-bordered table-hover js-basic-example dataTable table-custom">
-                                    <thead>
-                                        <tr>
-                                          <th> #</th>
-                                            <th>Patients Name</th>
-                                            <th>Age</th>
-                                            <th>Sex</th>
-                                            <th>Occupation</th>
-                                            <th>Marital Status</th>
-                                            <th>Phone Number</th>
-                                            <th>Email Address</th>
-                                            <th>Address</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <?php
-                                // $get_category = $app->getsuppliers($key_grant);
-                                // $count = 0;
-                                // foreach ($get_category as $cc) {
-                                // $count++;
+                        </div>
+                        <div class="body table-responsive">
+                            <table class="table table-bordered table-hover js-basic-example dataTable table-custom">
+                                <thead>
+                                <tr>
+                                    <th> #</th>
+                                    <th>Patients Name</th>
+                                    <th>Age</th>
+                                    <th>Sex</th>
+                                    <th>Occupation</th>
+                                    <th>Marital Status</th>
+                                    <th>Phone Number</th>
+                                    <th>Email Address</th>
+                                    <th>Address</th>
+                                    <th>Action</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <?php
+                                $patient_list = $app->hospital_patients();
+                                $i = 0;
+                                foreach ($patient_list as $key => $values) {
+                                $i++;
                                 ?>
-                                        <tr>
-                                            <th scope="row"></th>
-                                            <td>Yello</td>
-                                            <td>...</td>
-                                            <td>23</td>
-                                            <td>M</td>
-                                            <td>...</td>
-                                            <td>...</td>
-                                            <td>...</td>
-                                            <td>...</td>
-                                            <td>
-                                                <div class="btn-group" role="group">
-                                                    <button id="btnGroupDrop1" type="button"
-                                                        class="btn btn-primary dropdown-toggle " data-toggle="dropdown"
-                                                        aria-haspopup="true" aria-expanded="false">
-                                                        Action
-                                                    </button>
-                                                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1"
-                                                        x-placement="top-start"
-                                                        style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                                        <a class="dropdown-item"
-                                                            href="patients-folder.php">Patient
-                                                            Folder
-                                                        </a>
-                                                        <a class="dropdown-item" href="#">Assign to Doctor</a>
-                                                        <a class="dropdown-item" href="#">Assign to Specialist</a>
-                                                        <a class="dropdown-item" href="#">Admit</a>
-                                                        <hr>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <?php
-                                // }
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>Yello</td>
+                                    <td>...</td>
+                                    <td>23</td>
+                                    <td>M</td>
+                                    <td>...</td>
+                                    <td>...</td>
+                                    <td>...</td>
+                                    <td>...</td>
+                                    <td>
+                                        <div class="btn-group" role="group">
+                                            <button id="btnGroupDrop1" type="button"
+                                                    class="btn btn-primary dropdown-toggle " data-toggle="dropdown"
+                                                    aria-haspopup="true" aria-expanded="false">
+                                                Action
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1"
+                                                 x-placement="top-start"
+                                                 style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                <a class="dropdown-item"
+                                                   href="patients-folder.php">Patient
+                                                    Folder
+                                                </a>
+                                                <a class="dropdown-item" href="#">Assign to Doctor</a>
+                                                <a class="dropdown-item" href="#">Assign to Specialist</a>
+                                                <a class="dropdown-item" href="#">Admit</a>
+                                                <hr>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                    <?php
+                                }
                                 ?>
 
-                                    </tbody>
-                                </table>
-                            </div>
+
+                                </tbody>
+                            </table>
                         </div>
                     </div>
-                    <script src="assets/bundles/libscripts.bundle.js"></script>
-                    <script src="assets/bundles/vendorscripts.bundle.js"></script>
-                    <script src="assets/bundles/datatablescripts.bundle.js"></script>
-                    <script src="../assets/vendor/jquery-datatable/buttons/dataTables.buttons.min.js"></script>
-                    <script src="../assets/vendor/jquery-datatable/buttons/buttons.bootstrap4.min.js"></script>
-                    <script src="../assets/vendor/jquery-datatable/buttons/buttons.colVis.min.js"></script>
-                    <script src="../assets/vendor/jquery-datatable/buttons/buttons.html5.min.js"></script>
-                    <script src="../assets/vendor/jquery-datatable/buttons/buttons.print.min.js"></script>
-                    <script src="../assets/vendor/sweetalert/sweetalert.min.js"></script>
-                    <script src="assets/bundles/mainscripts.bundle.js"></script>
-                    <script src="assets/js/pages/tables/jquery-datatable.js"></script>
-                    <script src="../assets/vendor/toastr/toastr.js"></script>
+                </div>
+                <script src="assets/bundles/libscripts.bundle.js"></script>
+                <script src="assets/bundles/vendorscripts.bundle.js"></script>
+                <script src="assets/bundles/datatablescripts.bundle.js"></script>
+                <script src="../assets/vendor/jquery-datatable/buttons/dataTables.buttons.min.js"></script>
+                <script src="../assets/vendor/jquery-datatable/buttons/buttons.bootstrap4.min.js"></script>
+                <script src="../assets/vendor/jquery-datatable/buttons/buttons.colVis.min.js"></script>
+                <script src="../assets/vendor/jquery-datatable/buttons/buttons.html5.min.js"></script>
+                <script src="../assets/vendor/jquery-datatable/buttons/buttons.print.min.js"></script>
+                <script src="../assets/vendor/sweetalert/sweetalert.min.js"></script>
+                <script src="assets/bundles/mainscripts.bundle.js"></script>
+                <script src="assets/js/pages/tables/jquery-datatable.js"></script>
+                <script src="../assets/vendor/toastr/toastr.js"></script>
 
 
-                    <script>
-                    $(document).on('click', '.del_cat', function() {
+                <script>
+                    $(document).on('click', '.del_cat', function () {
                         const uid = $(this).attr("data-id");
                         const info = $(this).attr("data-info");
                         // show in text field
@@ -143,11 +144,11 @@ $app = new controller;
                         //display modal
                         $('#del_cat').modal('show');
 
-                        $("#del_btn_cat").click(function() {
+                        $("#del_btn_cat").click(function () {
                             const info = $("#info").val();
                             const pid = $("#pid").val();
 
-                            $("#postcatdel").on('submit', (function(e) {
+                            $("#postcatdel").on('submit', (function (e) {
                                 e.preventDefault();
                                 const btn = $("#del_btn_cat");
                                 btn.attr('disabled', true).html(
@@ -166,7 +167,7 @@ $app = new controller;
                                             toastr.success('Completed.',
                                                 'Success');
                                             setTimeout(
-                                                function() {
+                                                function () {
                                                     window.location.href =
                                                         'vendor-list';
                                                 }, 2000);
@@ -181,7 +182,7 @@ $app = new controller;
                         });
 
                     });
-                    </script>
+                </script>
 </body>
 
 </html>
@@ -198,7 +199,7 @@ $app = new controller;
                     <div class="row">
                         <div class="col-sm-12 col-md-12">
                             <input type="text" placeholder="Add to Categories" class="float-right form-control"
-                                name="catname" id="catname" readonly="" required>
+                                   name="catname" id="catname" readonly="" required>
                             <input type="hidden" name="cpid" id="cpids">
                         </div>
                     </div>
