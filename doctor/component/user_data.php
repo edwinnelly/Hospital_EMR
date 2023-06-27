@@ -1,6 +1,6 @@
 <?php
 include_once "session.php";
-include_once "main.php";
+include_once "controller.php";
 $app = new controller;
 $user_log = $app->checkLogin();
 if ($user_log == "logged") {
