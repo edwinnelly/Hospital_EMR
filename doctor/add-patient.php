@@ -30,11 +30,9 @@ $app = new controller;
                     <div class="row">
                         <div class="col-lg-5 col-md-8 col-sm-12">
                             <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i
-                                        class="fa fa-arrow-left"></i></a>New Suppliers</h2>
+                                        class="fa fa-arrow-left"></i></a>Patients Profile</h2>
                             <ul class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="user_dir"><i class="icon-home"></i></a></li>
-                                <li class="breadcrumb-item">new</li>
-                                <li class="breadcrumb-item active">Suppliers</li>
+                                <li class="breadcrumb-item">Add Patient</li>
                             </ul>
                         </div>
                         <div class="col-lg-7 col-md-4 col-sm-12 text-right">
@@ -51,7 +49,7 @@ $app = new controller;
                             <div class="col-md-12 col-lg-8 col-sm-12">
                                 <div class="card">
                                     <div class="header">
-                                        <h2>Basic Info</h2>
+                                        <h2>Add Patient</h2>
                                     </div>
                                     <div class="body">
                                         <form method="post" id="add_vendors">
