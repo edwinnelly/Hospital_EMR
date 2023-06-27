@@ -13,7 +13,7 @@
                                     alt="icons"></i> <span class="side_bar_adjust">Dashboard</span></a>
                         </li>
                         <li>
-                            <a href="#" class="has-arrow"><img src="./icon/8666755_users_group_icon.png" height="21"
+                            <a href="patients-profile.php" class="has-arrow"><img src="./icon/8666755_users_group_icon.png" height="21"
                                     alt="icons"> <span class="side_bar_adjust">Patients Profile</span></a>
                         </li>
                         <li>

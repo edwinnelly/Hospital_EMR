@@ -6,46 +6,10 @@ $app = new controller;
 <!doctype html>
 <html lang="en">
 <head>
-    <title>:: Hospital Doctor : Dashboard</title>
-    <meta name="description" content="Place the meta description text here.">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/color_skins.css">
-    <meta http-equiv="Content-Security-Policy"
-          content="
-                 object-src 'none';
-                 base-uri 'self';
-                 form-action 'self';
-                 frame-ancestors 'none';
-                 manifest-src 'self';
-                 worker-src 'self';
-                 block-all-mixed-content;
-                 upgrade-insecure-requests;
-                 reflected-xss block;
-                ">
-    <style>
-        @media screen and (max-width: 320px) {
-            #cc {
-                visibility: hidden;
-                clear: both;
-                float: left;
-                margin: 10px auto 5px 20px;
-                width: 28%;
-                display: none;
-            }
-        }
-    </style>
+   <?php include_once "component/style.php"?>
 </head>
 <body class="theme-blue">
-<!--<div class="page-loader-wrapper">-->
-<!--    <div class="loader">-->
-<!--        <div class="m-t-30"><img src="../logo/lentose1.png" height="150" alt="Lentose"></div>-->
-<!--        <p>Please wait...</p>-->
-<!--    </div>-->
-<!--</div>-->
+    
 <div id="wrapper">
     <?php
     require_once 'component/header.php';
@@ -83,8 +47,8 @@ $app = new controller;
                 <div class="col-lg-3 col-md-6">
                     <div class="card overflowhidden">
                         <div class="body">
-                            <h3>34 <i class="icon-basket-loaded float-right"></i></h3>
-                            <span>Products</span>
+                            <h3>34 </h3>
+                            <span>In Patients</span>
                         </div>
                         <div class="progress progress-xs progress-transparent custom-color-blue m-b-0">
                             <div class="progress-bar" data-transitiongoal="64"></div>
@@ -94,8 +58,8 @@ $app = new controller;
                 <div class="col-lg-3 col-md-6">
                     <div class="card overflowhidden">
                         <div class="body">
-                            <h3> 65 <i class="icon-user-follow float-right"></i></h3>
-                            <span>My Customers</span>
+                            <h3> 65 </h3>
+                            <span>Out Patients</span>
                         </div>
                         <div class="progress progress-xs progress-transparent custom-color-purple m-b-0">
                             <div class="progress-bar" data-transitiongoal="67"></div>
@@ -105,9 +69,8 @@ $app = new controller;
                 <div class="col-lg-3 col-md-6">
                     <div class="card overflowhidden">
                         <div class="body">
-                            <h3>32 <i
-                                        class="fa fa-dollar float-right"></i></h3>
-                            <span>Item Categories</span>
+                            <h3>32 </h3>
+                            <span>New Messages</span>
                         </div>
                         <div class="progress progress-xs progress-transparent custom-color-yellow m-b-0">
                             <div class="progress-bar" data-transitiongoal="89"></div>
@@ -117,8 +80,8 @@ $app = new controller;
                 <div class="col-lg-3 col-md-6">
                     <div class="card overflowhidden">
                         <div class="body">
-                            <h3>0 <i class=" icon-heart float-right"></i></h3>
-                            <span>My Stores</span>
+                            <h3>0 </h3>
+                            <span>Completed In Patients/ Out Patients</span>
                         </div>
                         <div class="progress progress-xs progress-transparent custom-color-green m-b-0">
                             <div class="progress-bar" data-transitiongoal="68"></div>
