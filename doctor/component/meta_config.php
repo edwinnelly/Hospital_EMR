@@ -19,6 +19,8 @@
 <link rel="stylesheet" href="../assets/vendor/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css">
 <link rel="stylesheet" href="../assets/vendor/jvectormap/jquery-jvectormap-2.0.3.min.css" />
 <link rel="stylesheet" href="../assets/vendor/morrisjs/morris.min.css" />
+<link rel="stylesheet" href="../assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+
 
 <link rel="stylesheet" href="../assets/vendor/jquery-datatable/dataTables.bootstrap4.min.css">
 <link rel="stylesheet" href="../assets/vendor/jquery-datatable/fixedeader/dataTables.fixedcolumns.bootstrap4.min.css">
@@ -26,7 +28,7 @@
 <link rel="stylesheet" href="../assets/vendor/sweetalert/sweetalert.css" />
 <link rel="stylesheet" href="../assets/vendor/toastr/toastr.min.css">
 
-
+<link rel="stylesheet" href="assets/css/blog.css">
 <link rel="stylesheet" href="../assets/vendor/select2/select2.css" />
 <link rel="stylesheet" href="assets/css/inbox.css">
 <link rel="stylesheet" href="assets/css/main.css">
