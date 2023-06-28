@@ -122,7 +122,7 @@ class controller extends dbc
 
     public function hospital_patients()
     {
-        echo $query = "SELECT * FROM patients_crm";
+        $query = "SELECT * FROM patients_crm";
         $q = $this->run_query($query);
         $user_list = array();
         while ($row = $this->get_result($q)) {

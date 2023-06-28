@@ -78,38 +78,44 @@ $app = new controller;
                                 foreach ($patient_list as $key => $values) {
                                 $i++;
                                 ?>
-                                <tr>
-                                    <th scope="row"></th>
-                                    <td>Yello</td>
-                                    <td>...</td>
-                                    <td>23</td>
-                                    <td>M</td>
-                                    <td>...</td>
-                                    <td>...</td>
-                                    <td>...</td>
-                                    <td>...</td>
-                                    <td>
-                                        <div class="btn-group" role="group">
-                                            <button id="btnGroupDrop1" type="button"
-                                                    class="btn btn-primary dropdown-toggle " data-toggle="dropdown"
-                                                    aria-haspopup="true" aria-expanded="false">
-                                                Action
-                                            </button>
-                                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1"
-                                                 x-placement="top-start"
-                                                 style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                                <a class="dropdown-item"
-                                                   href="patients-folder.php">Patient
-                                                    Folder
-                                                </a>
-                                                <a class="dropdown-item" href="#">Assign to Doctor</a>
-                                                <a class="dropdown-item" href="#">Assign to Specialist</a>
-                                                <a class="dropdown-item" href="#">Admit</a>
-                                                <hr>
+                                    <tr class="gradeA">
+                                        <td><?= $i; ?></td>
+                                        <td style="text-transform: capitalize"><?=  $values->patient_name;  ?></td>
+                                        <td><?php
+                                            $birthDate =  date('d/m/Y',strtotime($values->age));
+                                            //explode the date to get month, day and year
+                                            $birthDate = explode("/", $birthDate);
+                                            //get age from date or birthdate
+                                            $age = (date("md", date("U", mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birthDate[2]))) > date("md")
+                                                ? ((date("Y") - $birthDate[2]) - 1)
+                                                : (date("Y") - $birthDate[2]));
+                                            echo $age;
+
+                                            ?></td>
+                                        <td><?=  $values->sex;  ?></td>
+                                        <td><?=  $values->occupation;  ?></td>
+                                        <td><?=  $values->marital_status;  ?></td>
+                                        <td><?=  $values->phone_number;  ?></td>
+                                        <td><?=  $values->email_address;  ?></td>
+                                        <td><?=  $values->address;  ?></td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle font-weight-bold btn-rounded btn-outline">Action </button>
+                                                <ul class="dropdown-menu">
+
+                                                    <li><a href="host_patients_folder.php?aset=<?=  base64_encode($values->id);  ?>" class="dropdown-item font-weight-bold edit_asset" >Patient Folder</a></li>
+
+                                                    <li><a href="assigntodoc.php?aset=<?=  base64_encode($values->id);  ?>" class="dropdown-item font-weight-bold edit_asset" >Assign to doctor</a></li>
+
+                                                    <li><a href="assigntospecialist.php?aset=<?=  base64_encode($values->id);  ?>" class="dropdown-item font-weight-bold edit_asset" >Assign to Specialist</a></li>
+
+                                                    <li><a href="admitpatients.php?aset=<?=  base64_encode($values->id);  ?>" class="dropdown-item font-weight-bold edit_asset" >Admit Patient</a></li>
+
+                                                </ul>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
+
+                                        </td>
+                                    </tr>
                                     <?php
                                 }
                                 ?>
