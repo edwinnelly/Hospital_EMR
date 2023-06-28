@@ -12,12 +12,7 @@ $app = new controller;
 </head>
 
 <body class="theme-cyan">
-<div class="page-loader-wrapper">
-    <div class="loader">
-        <div class="m-t-30"><img src="../assets/images/logo-icon.svg" width="48" height="48" alt="Lucid"></div>
-        <p>Please wait...</p>
-    </div>
-</div>
+    <?php include_once "component/page-loader.php"?>
 <div id="wrapper">
     <?php
     require_once 'component/header.php';
@@ -124,6 +119,7 @@ $app = new controller;
                                 </tbody>
                             </table>
                         </div>
+                    
                     </div>
                 </div>
                 <script src="assets/bundles/libscripts.bundle.js"></script>

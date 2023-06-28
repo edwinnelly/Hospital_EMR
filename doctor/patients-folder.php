@@ -7,12 +7,7 @@
 
 <body class="theme-cyan">
 
-    <div class="page-loader-wrapper">
-        <div class="loader">
-            <div class="m-t-30"><img src="../assets/images/logo-icon.svg" width="48" height="48" alt="Lucid"></div>
-            <p>Please wait...</p>
-        </div>
-    </div>
+<?php include_once "component/page-loader.php"?>
 
     <div id="wrapper">
         <?php 
@@ -39,16 +34,7 @@
                 <div class="row clearfix">
                     <div class="col-lg-12">
                         <div class="card">
-                            <div class="mobile-left">
-                                <a class="btn btn-primary toggle-email-nav collapsed" data-toggle="collapse"
-                                    href="app-inbox.html#email-nav" role="button" aria-expanded="false"
-                                    aria-controls="email-nav">
-                                    <span class="btn-label">
-                                        <i class="la la-bars"></i>
-                                    </span>
-                                    Menu
-                                </a>
-                            </div>
+                            
                             <div class="mail-inbox">
                                <?php include_once "component/patients_profile_sidebar.php"?>
                                 <div class="mail-right">
@@ -57,7 +43,7 @@
 
                                     </div>
                                     <div class="row clearfix">
-                                        <div class="col-lg-6 col-md-12">
+                                        <div class="col-lg-7 col-md-12">
                                             <div class="card profile-header align-center">
                                                 <div class="body">
                                                     <div class="profile-image"> <img src="../assets/images/user.png"

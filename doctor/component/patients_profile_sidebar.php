@@ -7,27 +7,28 @@
             <li class=""><a href="patients-folder.php"><i class="fa fa-circle-o text-danger"></i>Patients
                     Dashboard</a>
             </li>
-            <li class=""><a href="./appointment/visitors.php"><i class="fa fa-circle-o text-danger"></i>Visit/Appointments</a>
+            <li class=""><a href="visitors.php"><i class="fa fa-circle-o text-danger"></i>Visit/Appointments</a>
             </li>
             <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Diagnosis
                     History</a>
             </li>
-            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Prescription</a></li>
-            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Drug
+            <li class=""><a href="prescription.php"><i class="fa fa-circle-o text-danger"></i>Prescription</a></li>
+            <li class=""><a href="drug-administration.php"><i class="fa fa-circle-o text-danger"></i>Drug
                     Administration</a>
             </li>
-            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Lab
+            <li class=""><a href="lab-profile.php"><i class="fa fa-circle-o text-danger"></i>Lab
                     Profile</a></li>
             <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Patient
                     Bills</a></li>
             <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Patient
                     Alert</a></li>
-            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Medical
+            <li class=""><a href="referrals.php"><i class="fa fa-circle-o text-danger"></i>Referrals</a></li>
+            <li class=""><a href="medical-reports.php"><i class="fa fa-circle-o text-danger"></i>Medical
                     Reports</a></li>
-            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Discharge
+            <li class=""><a href="discharge.php"><i class="fa fa-circle-o text-danger"></i>Discharge
                     Summary</a>
             </li>
-            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Imaging/Attachment</a>
+            <li class=""><a href="imaging.php"><i class="fa fa-circle-o text-danger"></i>Imaging/Attachment</a>
             </li>
             <h3 class="label">Extra Setting <a href="#" class="float-right m-r-10" title="Extra Setting"></a></h3>
             <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Discharge/Close</a>
