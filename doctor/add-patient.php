@@ -12,12 +12,8 @@ $app = new controller;
 </head>
 
 <body class="theme-cyan">
-    <div class="page-loader-wrapper">
-        <div class="loader">
-            <div class="m-t-30"><img src="../logo/lentose1.png" height="150" alt="Lentose"></div>
-            <p>Please wait...</p>
-        </div>
-    </div>
+<?php include_once "component/page-loader.php"?>
+
     <div id="wrapper">
         <?php
     require_once 'component/header.php';

@@ -1,4 +1,4 @@
-<div class="col-lg-6">
+<div class="col-lg-5">
     <div class="card">
         <div class="body">
             <ul class="nav nav-tabs-new">
