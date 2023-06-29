@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-   <?php include_once "component/meta_config.php"?>
+    <?php include_once "component/meta_config.php"?>
 </head>
 
 <body class="theme-cyan">
 
-<?php include_once "component/page-loader.php" ?>
+    <?php include_once "component/page-loader.php" ?>
     <div id="wrapper">
-      <?php 
+        <?php 
       include_once "component/header.php";
       include_once "component/sidebar.php";
       ?>
@@ -82,16 +82,6 @@
                                                 <small>Last seen: 2 hours ago</small>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 hidden-sm text-right">
-                                            <a href="javascript:void(0);" class="btn btn-outline-secondary"><i
-                                                    class="icon-camera"></i></a>
-                                            <a href="javascript:void(0);" class="btn btn-outline-primary"><i
-                                                    class="icon-camcorder"></i></a>
-                                            <a href="javascript:void(0);" class="btn btn-outline-info"><i
-                                                    class="icon-settings"></i></a>
-                                            <a href="javascript:void(0);" class="btn btn-outline-warning"><i
-                                                    class="icon-question"></i></a>
-                                        </div>
                                     </div>
                                 </div>
                                 <div class="chat-history">
@@ -135,7 +125,7 @@
         </div>
     </div>
 
-    
+
     <script data-cfasync="false" src="../../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
     </script>
     <script src="assets/bundles/libscripts.bundle.js"></script>

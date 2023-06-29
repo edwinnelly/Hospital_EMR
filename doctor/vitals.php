@@ -39,7 +39,7 @@
                                         <h2>Vitals</h2>
                                     </div>
                                     <div class="row clearfix">
-                                        <div class="col-lg-7 col-md-12">
+                                        <div class="col-lg-12 col-md-12">
                                             <div class="card mt-4 pb-4">
                                                 <div class="d-flex">
                                                     <div class="image pl-3">
@@ -71,6 +71,8 @@
                                                                 <td>
                                                                     <strong> Body Temperature</strong> -44°C
                                                                 </td>
+                                                            </tr>
+                                                            <tr>
                                                                 <td>
                                                                     <strong>Pulse Rate</strong> -4BPM
                                                                 </td>
@@ -79,13 +81,12 @@
                                                                 </td>
                                                                 <td>
                                                                     <strong> Oxygen Saturation</strong> -4%
-                                                                </td>
-
-                                                            </tr>
-                                                            <tr>
                                                                 <td>
                                                                     <strong>Random Blood Sugar</strong> -4mmol/L
                                                                 </td>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
                                                                 <td>
                                                                     <strong>Abdominal Girth</strong> -4cm
                                                                 </td>
@@ -98,6 +99,9 @@
                                                                 <td>
                                                                     <strong> Chest Circumference</strong> -4cm
                                                                 </td>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
                                                                 <td>
                                                                     <strong> Mac</strong> -4cm
                                                                 </td>
@@ -138,10 +142,8 @@
                                                             style="font-size: 14px;">2022-07-18 18:13:14</span>
                                                     </div>
                                                 </div>
-
                                             </div>
                                         </div>
-                                        <?php include_once "component/patients-overview.php"?>
                                     </div>
                                 </div>
                             </div>

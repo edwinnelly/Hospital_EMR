@@ -94,7 +94,7 @@
                                                                             aria-labelledby="btnGroupDrop1"
                                                                             x-placement="top-start"
                                                                             style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                                                            <a class="dropdown-item" href="">Drug Chart
+                                                                            <a class="dropdown-item" href="drug-chart.php">Drug Chart
                                                                             </a>
                                                                             <a class="dropdown-item"
                                                                                 href="#">Discontinue Medication</a>
