@@ -76,6 +76,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                           
                                             </div>
                                         </div>
                                         <?php include_once "component/patients-overview.php"?>

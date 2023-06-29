@@ -40,25 +40,25 @@
         <h3 class="label">Case Note</h3>
         <ul class="nav">
             <li class="">
-                <a href="#"><i class="fa fa-circle text-danger"></i>Encounters</a>
+                <a href="encounter.php"><i class="fa fa-circle text-danger"></i>Encounters</a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-circle text-danger"></i>Vitals</a>
+                <a href="vitals.php"><i class="fa fa-circle text-danger"></i>Vitals</a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-circle text-danger"></i>Clinical Note</a>
+                <a href="clinical-note.php"><i class="fa fa-circle text-danger"></i>Clinical Note</a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-circle text-danger"></i>Fluid Chart</a>
+                <a href="fluid-chart.php"><i class="fa fa-circle text-danger"></i>Fluid Chart</a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-circle text-danger"></i>Surgical Note</a>
+                <a href="surgical-note.php"><i class="fa fa-circle text-danger"></i>Surgical Note</a>
             </li>
             <li>
                 <a href="#"><i class="fa fa-circle text-danger"></i>Result</a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-circle text-danger"></i>Comments</a>
+                <a href="comments.php"><i class="fa fa-circle text-danger"></i>Comments</a>
             </li>
         </ul>
     </div>

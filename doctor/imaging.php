@@ -51,8 +51,7 @@
                                                     </div>
                                                     <div class="mt-2 ml-3">
                                                         <h4>Bianca</h4>
-                                                        <button class="btn btn-success btn-sm" data-toggle="modal"
-                                                            data-target="#exampleModal">Add Test</button>
+                                                      <a href="add-test.php"><button class="btn btn-success btn-sm">Add Test</button></a> 
                                                     </div>
                                                 </div>
                                             </div>
@@ -81,64 +80,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- modal start -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel"
-            aria-hidden="true">>
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header d-block">
-                        <h6 class="title font-weight-bold" id="defaultModalLabel">Add New Prescriptiont</h6>
-                        <small class="text-secondary">You can add and assign drugs to patients.</small>
-                    </div>
-
-                    <div class="modal-body">
-                        <form id="postcatdel" method="post">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-12 mb-3">
-                                    <label for="" class="fw-bold mb-2">Choose Drugs</label>
-                                    <select class="form-select form-select-sm form-control"
-                                        aria-label=".form-select-sm example">
-                                        <option selected>Choose Category</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                                <div class="col-sm-12 col-md-12 mb-3">
-                                    <label for="" class="fw-bold mb-2">Duration</label>
-                                    <input type="text" placeholder="Duration" class="form-control" name="catname"
-                                        id="catname" required>
-                                    <input type="hidden" name="cpid" id="cpids">
-                                </div>
-                                <div class="col-sm-12 col-md-12 mb-3">
-                                    <label for="" class="fw-bold mb-2">Quantity</label>
-                                    <input type="text" placeholder="Quantity" class="form-control" name="catname"
-                                        id="catname" required>
-                                    <input type="hidden" name="cpid" id="cpids">
-                                </div>
-                                <div class="col-sm-12 col-md-12 mb-3">
-                                    <label for="" class="fw-bold mb-2">Choose Frequency</label>
-                                    <select class="form-select form-select-sm form-control"
-                                        aria-label=".form-select-sm example">
-                                        <option selected>Choose Category</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="modal-footer">
-                        <input type="submit" class="btn btn-primary font-weight-bold" id="" value="Add">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">X</button>
-                    </div>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-        <!-- modal end -->
         <script data-cfasync="false" src="../../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
         </script>
         <script src="assets/bundles/libscripts.bundle.js"></script>

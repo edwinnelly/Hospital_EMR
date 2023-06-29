@@ -34,6 +34,8 @@
 <link rel="stylesheet" href="assets/css/inbox.css">
 <link rel="stylesheet" href="assets/css/main.css">
 <link rel="stylesheet" href="assets/css/color_skins.css">
+<link rel="stylesheet" href="assets/css/chatapp.css">
+
 <!---->
 <meta http-equiv="Content-Security-Policy"
       content="
@@ -61,5 +63,27 @@
     }
     .curve-border{
         border-radius:5px;
+    }
+    .fluid-box{
+        border-left: 5px solid green;
+        background-color:#f8f9fa;
+    }
+    .fluid-box:hover{
+        background-color: antiquewhite;
+        cursor: pointer;
+        transition:all 0.5s ease;
+    }
+    .fluid-box li{
+        list-style-type: none;
+    }
+    .bck{
+        background-color: #007bff;
+        border-radius:3px;
+        border-width:1px;
+        color:white;
+    }
+    .bck:hover{
+        background-color:#17a2b8;
+        color:white;
     }
 </style>

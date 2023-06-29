@@ -28,7 +28,7 @@
 
 
                         <li>
-                            <a href="#"><img
+                            <a href="message.php"><img
                                     src="https://cdn-icons-png.flaticon.com/128/542/542638.png" alt="icons"
                                     height="21"> <span class="side_bar_adjust">Message</span></a>
                         </li>
