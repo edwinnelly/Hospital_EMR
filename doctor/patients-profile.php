@@ -98,7 +98,7 @@ $app = new controller;
                                                 <button data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle font-weight-bold btn-rounded btn-outline">Action </button>
                                                 <ul class="dropdown-menu">
 
-                                                    <li><a href="host_patients_folder.php?aset=<?=  base64_encode($values->id);  ?>" class="dropdown-item font-weight-bold edit_asset" >Patient Folder</a></li>
+                                                    <li><a href="patients-folder.php?aset=<?=  base64_encode($values->id);  ?>" class="dropdown-item font-weight-bold edit_asset" >Patient Folder</a></li>
 
                                                     <li><a href="assigntodoc.php?aset=<?=  base64_encode($values->id);  ?>" class="dropdown-item font-weight-bold edit_asset" >Assign to doctor</a></li>
 
