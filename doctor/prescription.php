@@ -39,7 +39,7 @@
                                         <h2>Prescription</h2>
                                     </div>
                                     <div class="row clearfix">
-                                        <div class="col-lg-7 col-md-12">
+                                        <div class="col-lg-12 col-md-12">
                                             <div class="card mt-4 pb-4">
                                                 <div class="d-flex">
                                                     <div class="image pl-3">
@@ -109,7 +109,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <?php include_once "component/patients-overview.php"?>
                                     </div>
                                 </div>
 

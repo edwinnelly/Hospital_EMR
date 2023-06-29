@@ -135,7 +135,7 @@
                                                     </div>
                                                     <div class="panel-footer">
                                                         Posted By Dr Nelly eke <a
-                                                            href="edit_vitals.php?aset=MQ==&amp;&amp;pid=1"> <button
+                                                            href="add-vitals-report.php?aset=MQ==&amp;&amp;pid=1"> <button
                                                                 class="btn btn-default btn-sm btn-rounded fa fa-edit"></button></a><span
                                                             class="fa fa-recycle cc" data-id="1"></span><span
                                                             class="pull-right font-weight-bold"
