@@ -111,12 +111,12 @@ $app = new controller;
                                 </tbody>
                             </table>
                         </div>
-                    
                     </div>
                 </div>
                 <script src="assets/bundles/libscripts.bundle.js"></script>
                 <script src="assets/bundles/vendorscripts.bundle.js"></script>
                 <script src="assets/bundles/datatablescripts.bundle.js"></script>
+                <script src="assets/js/pages/tables/jquery-datatable.js"></script>
                 <script src="../assets/vendor/jquery-datatable/buttons/dataTables.buttons.min.js"></script>
                 <script src="../assets/vendor/jquery-datatable/buttons/buttons.bootstrap4.min.js"></script>
                 <script src="../assets/vendor/jquery-datatable/buttons/buttons.colVis.min.js"></script>
@@ -124,7 +124,6 @@ $app = new controller;
                 <script src="../assets/vendor/jquery-datatable/buttons/buttons.print.min.js"></script>
                 <script src="../assets/vendor/sweetalert/sweetalert.min.js"></script>
                 <script src="assets/bundles/mainscripts.bundle.js"></script>
-                <script src="assets/js/pages/tables/jquery-datatable.js"></script>
                 <script src="../assets/vendor/toastr/toastr.js"></script>
 
 

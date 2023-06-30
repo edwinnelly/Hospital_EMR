@@ -36,7 +36,7 @@
                                 <?php include_once "component/patients_profile_sidebar.php"?>
                                 <div class="mail-right">
                                     <div class="header d-flex align-center"><a href="lab-department.php"><i
-                                        class="fa fa-arrow-left mr-2"></i></a>Lab Department</h2>
+                                                class="fa fa-arrow-left mr-2"></i></a>Lab Department</h2>
                                     </div>
                                     <div class="row clearfix">
                                         <div class="col-lg-12 col-md-12">
@@ -69,7 +69,8 @@
                                                                             aria-labelledby="btnGroupDrop1"
                                                                             x-placement="top-start"
                                                                             style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                                                            <a class="dropdown-item" href="#">Cancel Test</a>
+                                                                            <a class="dropdown-item" href="#">Cancel
+                                                                                Test</a>
                                                                         </div>
                                                                     </div>
                                                                 </td>
@@ -153,6 +154,13 @@
         <script src="assets/js/pages/ui/dialogs.js"></script>
         <script src="assets/bundles/knob.bundle.js"></script>
         <script src="../assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+        <script src="assets/bundles/datatablescripts.bundle.js"></script>
+        <script src="assets/js/pages/tables/jquery-datatable.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/dataTables.buttons.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.bootstrap4.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.colVis.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.html5.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.print.min.js"></script>
         <script>
         $(document).ready(function() {
             $(".mail-detail-expand").click(function() {

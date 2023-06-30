@@ -37,7 +37,7 @@
                                 <div class="mail-right">
                                     <div class="header d-flex align-center">
                                         <h2><a href="lab-department.php" class="mr-2"><i
-                                        class="fa fa-arrow-left"></i></a> Edit Lab Department</h2>
+                                                    class="fa fa-arrow-left"></i></a> Edit Lab Department</h2>
                                     </div>
                                     <div class="row clearfix">
                                         <div class="col-lg-12 col-md-12">
@@ -50,7 +50,8 @@
                                                                 class="form-control">
                                                         </div>
                                                     </div>
-                                                    <button class="btn btn-success btn-sm ml-3 mb-3"> Update Lab Department</button>
+                                                    <button class="btn btn-success btn-sm ml-3 mb-3"> Update Lab
+                                                        Department</button>
                                                 </form>
                                             </div>
                                         </div>
@@ -128,6 +129,13 @@
         <script src="assets/js/pages/ui/dialogs.js"></script>
         <script src="assets/bundles/knob.bundle.js"></script>
         <script src="../assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+        <script src="assets/bundles/datatablescripts.bundle.js"></script>
+        <script src="assets/js/pages/tables/jquery-datatable.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/dataTables.buttons.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.bootstrap4.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.colVis.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.html5.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.print.min.js"></script>
         <script>
         $(document).ready(function() {
             $(".mail-detail-expand").click(function() {

@@ -74,7 +74,7 @@
                                                                             x-placement="top-start"
                                                                             style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
                                                                             a class="dropdown-item"
-                                                                                href="edit-department.php">Edit </a>
+                                                                            href="edit-department.php">Edit </a>
                                                                             <a class="dropdown-item" href="#">Delete</a>
                                                                         </div>
                                                                     </div>
@@ -159,6 +159,13 @@
         <script src="assets/js/pages/ui/dialogs.js"></script>
         <script src="assets/bundles/knob.bundle.js"></script>
         <script src="../assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+        <script src="assets/bundles/datatablescripts.bundle.js"></script>
+        <script src="assets/js/pages/tables/jquery-datatable.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/dataTables.buttons.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.bootstrap4.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.colVis.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.html5.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.print.min.js"></script>
         <script>
         $(document).ready(function() {
             $(".mail-detail-expand").click(function() {

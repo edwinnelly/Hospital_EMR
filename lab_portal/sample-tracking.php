@@ -35,8 +35,7 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="header p-3">
-                                <a href="patients-profile.php" class=""><i
-                                        class="fa fa-arrow-left"></i></a>
+                                <a href="patients-profile.php" class=""><i class="fa fa-arrow-left"></i></a>
                             </div>
                             <div class="body table-responsive">
                                 <table class="table table-bordered table-hover js-basic-example dataTable table-custom">
@@ -54,10 +53,10 @@
                                     <tbody>
 
                                         <tr class="gradeA">
-                                            <td ></td>
+                                            <td></td>
                                             <td>Bianca Peters</td>
                                             <td>Hemoglobin A1C</td>
-                                            <td ></td>
+                                            <td></td>
                                             <td class="text-danger">SA1</td>
                                             <td class="text-info">completed</td>
                                             <td class="text-primary">Open Result</td>
@@ -84,6 +83,13 @@
         <script src="assets/js/pages/ui/dialogs.js"></script>
         <script src="assets/bundles/knob.bundle.js"></script>
         <script src="../assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+        <script src="assets/bundles/datatablescripts.bundle.js"></script>
+        <script src="assets/js/pages/tables/jquery-datatable.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/dataTables.buttons.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.bootstrap4.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.colVis.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.html5.min.js"></script>
+        <script src="../assets/vendor/jquery-datatable/buttons/buttons.print.min.js"></script>
         <script>
         $(document).ready(function() {
             $(".mail-detail-expand").click(function() {
