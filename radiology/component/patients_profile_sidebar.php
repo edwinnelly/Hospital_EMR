@@ -1,10 +1,10 @@
 <div class="mail-left collapse" id="email-nav">
     <div class="mail-compose m-b-20">
-        <a href="#" class="btn btn-danger btn-block text-white">Lab Department</a>
+        <a href="#" class="btn btn-danger btn-block text-white">Image Approval</a>
     </div>
     <div class="mail-side">
         <ul class="nav">
-            <li class=""><a href="lab-department.php"><i class="fa fa-circle-o text-danger"></i>Lab Department
+            <li class=""><a href="lab-department.php"><i class="fa fa-circle-o text-danger"></i>Image Approval
                 </a>
             </li>
             <li class=""><a href="chemistry.php"><i class="fa fa-circle-o text-danger"></i>Chemistry</a>

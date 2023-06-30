@@ -41,16 +41,17 @@
                                     <div class="row clearfix">
                                         <div class="col-lg-12 col-md-12">
                                             <div class="card pl-4">
-                                                <div class="body table-responsive">
+                                            <div class="body table-responsive">
                                                     <table
                                                         class="table table-bordered table-hover js-basic-example dataTable table-custom">
                                                         <thead>
                                                             <tr>
                                                                 <th> #</th>
-                                                                <th>Patients Name</th>
-                                                                <th>Test Name</th>
-                                                                <th>Sample</th>
-                                                                <th>Sample no</th>
+                                                                <th>Patients Names</th>
+                                                                <th>Test Names</th>
+                                                                <th>Sample </th>
+                                                                <th>Samplw No</th>
+                                                                <th>Added Date</th>
                                                                 <th>Action</th>
                                                             </tr>
                                                         </thead>
@@ -58,9 +59,10 @@
                                                             <tr>
                                                                 <th scope="row"></th>
                                                                 <td>Yello</td>
+                                                                <td>23</td>
+                                                                <td>23</td>
+                                                                <td>23</td>
                                                                 <td>M</td>
-                                                                <td>23</td>
-                                                                <td>23</td>
                                                                 <td>
                                                                     <div class="btn-group" role="group">
                                                                         <button id="btnGroupDrop1" type="button"
@@ -74,8 +76,14 @@
                                                                             x-placement="top-start"
                                                                             style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
                                                                             <a class="dropdown-item"
-                                                                                href="edit-department.php">Edit </a>
-                                                                            <a class="dropdown-item" href="#">Delete</a>
+                                                                                href="lab-dep-test.php">View Department
+                                                                                Test
+                                                                            </a>
+                                                                            <a class="dropdown-item"
+                                                                                href="edit-department.php">Edit Lab
+                                                                                Department</a>
+                                                                            <a class="dropdown-item" href="#">Delete
+                                                                                Department</a>
                                                                         </div>
                                                                     </div>
                                                                 </td>
@@ -83,6 +91,7 @@
                                                         </tbody>
                                                     </table>
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>

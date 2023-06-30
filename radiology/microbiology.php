@@ -83,6 +83,57 @@
                                                         </tbody>
                                                     </table>
                                                 </div>
+                                                <div class="body table-responsive">
+                                                    <table
+                                                        class="table table-bordered table-hover js-basic-example dataTable table-custom">
+                                                        <thead>
+                                                            <tr>
+                                                                <th> #</th>
+                                                                <th>Patients Names</th>
+                                                                <th>Test Names</th>
+                                                                <th>Sample </th>
+                                                                <th>Samplw No</th>
+                                                                <th>Added Date</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th scope="row"></th>
+                                                                <td>Yello</td>
+                                                                <td>23</td>
+                                                                <td>23</td>
+                                                                <td>23</td>
+                                                                <td>M</td>
+                                                                <td>
+                                                                    <div class="btn-group" role="group">
+                                                                        <button id="btnGroupDrop1" type="button"
+                                                                            class="btn btn-primary dropdown-toggle "
+                                                                            data-toggle="dropdown" aria-haspopup="true"
+                                                                            aria-expanded="false">
+                                                                            Action
+                                                                        </button>
+                                                                        <div class="dropdown-menu"
+                                                                            aria-labelledby="btnGroupDrop1"
+                                                                            x-placement="top-start"
+                                                                            style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                                            <a class="dropdown-item"
+                                                                                href="lab-dep-test.php">View Department
+                                                                                Test
+                                                                            </a>
+                                                                            <a class="dropdown-item"
+                                                                                href="edit-department.php">Edit Lab
+                                                                                Department</a>
+                                                                            <a class="dropdown-item" href="#">Delete
+                                                                                Department</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>

@@ -18,10 +18,10 @@
                     <div class="row">
                         <div class="col-lg-5 col-md-8 col-sm-12">
                             <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i
-                                        class="fa fa-arrow-left"></i></a>Lab Department</h2>
+                                        class="fa fa-arrow-left"></i></a>Image Approval</h2>
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="user_dir.php"><i class="icon-home"></i></a></li>
-                                <li class="breadcrumb-item active">Lab Department</li>
+                                <li class="breadcrumb-item active">Image Approval</li>
                             </ul>
                         </div>
                         <div class="col-lg-7 col-md-4 col-sm-12 text-right">
@@ -36,7 +36,7 @@
                                 <?php include_once "component/patients_profile_sidebar.php"?>
                                 <div class="mail-right">
                                     <div class="header d-flex align-center">
-                                        <h2>Lab Department</h2>
+                                        <h2>Image Approval</h2>
                                     </div>
                                     <div class="row clearfix">
                                         <div class="col-lg-12 col-md-12">
@@ -47,8 +47,10 @@
                                                         <thead>
                                                             <tr>
                                                                 <th> #</th>
-                                                                <th>Lab Department</th>
-                                                                <th>Lab Test</th>
+                                                                <th>Patients Names</th>
+                                                                <th>Test Names</th>
+                                                                <th>Sample </th>
+                                                                <th>Samplw No</th>
                                                                 <th>Added Date</th>
                                                                 <th>Action</th>
                                                             </tr>
@@ -57,6 +59,8 @@
                                                             <tr>
                                                                 <th scope="row"></th>
                                                                 <td>Yello</td>
+                                                                <td>23</td>
+                                                                <td>23</td>
                                                                 <td>23</td>
                                                                 <td>M</td>
                                                                 <td>
@@ -87,6 +91,7 @@
                                                         </tbody>
                                                     </table>
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>
