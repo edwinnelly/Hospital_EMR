@@ -4,9 +4,9 @@
 <head>
     <?php include_once "component/meta_config.php"?>
 </head>
+
 <body class="theme-cyan">
     <?php include_once "component/page-loader.php"?>
-
     <div id="wrapper">
         <?php 
    include_once "component/header.php";
@@ -18,13 +18,14 @@
                     <div class="row">
                         <div class="col-lg-5 col-md-8 col-sm-12">
                             <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i
-                                        class="fa fa-arrow-left"></i></a>Drug Administration</h2>
+                                        class="fa fa-arrow-left"></i></a>Lab Department</h2>
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="user_dir.php"><i class="icon-home"></i></a></li>
-                                <li class="breadcrumb-item active">Drug Administration</li>
+                                <li class="breadcrumb-item active">Lab Department</li>
                             </ul>
                         </div>
                         <div class="col-lg-7 col-md-4 col-sm-12 text-right">
+
                         </div>
                     </div>
                 </div>
@@ -35,50 +36,29 @@
                                 <?php include_once "component/patients_profile_sidebar.php"?>
                                 <div class="mail-right">
                                     <div class="header d-flex align-center">
-                                        <h2>Drug Administration</h2>
+                                        <h2>Lab Department</h2>
                                     </div>
                                     <div class="row clearfix">
                                         <div class="col-lg-12 col-md-12">
-                                            <div class="card mt-4 pb-4">
-                                                <div class="d-flex">
-                                                    <div class="image pl-3">
-                                                        <img src="https://maxsomwares.com/doctor/img/log.png"
-                                                            height="100px">
-                                                    </div>
-                                                    <div class="mt-2 ml-3">
-                                                        <h4>Bianca</h4>
-                                                        <button class=" btn btn-primary btn-sm">Print</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card mt-4 pl-4">
+                                            <div class="card pl-4">
                                                 <div class="body table-responsive">
                                                     <table
                                                         class="table table-bordered table-hover js-basic-example dataTable table-custom">
                                                         <thead>
                                                             <tr>
                                                                 <th> #</th>
-                                                                <th>Drug Name</th>
-                                                                <th>Frequency</th>
-                                                                <th>Duration</th>
-                                                                <th>Quantity</th>
+                                                                <th>Lab Department</th>
+                                                                <th>Lab Test</th>
                                                                 <th>Added Date</th>
-                                                                <th>Med Status</th>
-                                                                <th>Status</th>
                                                                 <th>Action</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
-
                                                             <tr>
                                                                 <th scope="row"></th>
                                                                 <td>Yello</td>
-                                                                <td>...</td>
                                                                 <td>23</td>
                                                                 <td>M</td>
-                                                                <td>...</td>
-                                                                <td>...</td>
-                                                                <td>...</td>
                                                                 <td>
                                                                     <div class="btn-group" role="group">
                                                                         <button id="btnGroupDrop1" type="button"
@@ -91,10 +71,12 @@
                                                                             aria-labelledby="btnGroupDrop1"
                                                                             x-placement="top-start"
                                                                             style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                                                            <a class="dropdown-item" href="">Drug Chart
+                                                                            <a class="dropdown-item" href="lab-dep-test.php">View Department Test
                                                                             </a>
                                                                             <a class="dropdown-item"
-                                                                                href="#">Discontinue Medication</a>
+                                                                                href="edit-department.php">Edit Lab Department</a>
+                                                                            <a class="dropdown-item" href="#">Delete
+                                                                                Department</a>
                                                                         </div>
                                                                     </div>
                                                                 </td>
@@ -112,6 +94,63 @@
                 </div>
             </div>
         </div>
+        <!-- modal start -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel"
+            aria-hidden="true">>
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header d-block">
+                        <h6 class="title font-weight-bold" id="defaultModalLabel">Add New Prescriptiont</h6>
+                        <small class="text-secondary">You can add and assign drugs to patients.</small>
+                    </div>
+
+                    <div class="modal-body">
+                        <form id="postcatdel" method="post">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 mb-3">
+                                    <label for="" class="fw-bold mb-2">Choose Drugs</label>
+                                    <select class="form-select form-select-sm form-control"
+                                        aria-label=".form-select-sm example">
+                                        <option selected>Choose Category</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-12 col-md-12 mb-3">
+                                    <label for="" class="fw-bold mb-2">Duration</label>
+                                    <input type="text" placeholder="Duration" class="form-control" name="catname"
+                                        id="catname" required>
+                                    <input type="hidden" name="cpid" id="cpids">
+                                </div>
+                                <div class="col-sm-12 col-md-12 mb-3">
+                                    <label for="" class="fw-bold mb-2">Quantity</label>
+                                    <input type="text" placeholder="Quantity" class="form-control" name="catname"
+                                        id="catname" required>
+                                    <input type="hidden" name="cpid" id="cpids">
+                                </div>
+                                <div class="col-sm-12 col-md-12 mb-3">
+                                    <label for="" class="fw-bold mb-2">Choose Frequency</label>
+                                    <select class="form-select form-select-sm form-control"
+                                        aria-label=".form-select-sm example">
+                                        <option selected>Choose Category</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" class="btn btn-primary font-weight-bold" id="" value="Add">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">X</button>
+                    </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <!-- modal end -->
         <script data-cfasync="false" src="../../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
         </script>
         <script src="assets/bundles/libscripts.bundle.js"></script>

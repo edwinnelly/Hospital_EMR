@@ -42,10 +42,6 @@ $app = new controller;
                     <div class="card">
                         <div class="header">
                             <h2> In Patients</h2>
-
-                            <a href="add-patient.php">
-                                <button class="btn btn-primary float-right">Add Patient</button>
-                            </a>
                         </div>
                         <div class="col-lg-12 ">
 
@@ -97,15 +93,11 @@ $app = new controller;
                                             <div class="btn-group">
                                                 <button data-toggle="dropdown" class="btn btn-primary btn-sm dropdown-toggle font-weight-bold btn-rounded btn-outline">Action </button>
                                                 <ul class="dropdown-menu">
-
-                                                    <li><a href="patients-folder.php?aset=<?=  base64_encode($values->id);  ?>" class="dropdown-item font-weight-bold edit_asset" >Patient Folder</a></li>
-
-                                                    <li><a href="assigntodoc.php?aset=<?=  base64_encode($values->id);  ?>" class="dropdown-item font-weight-bold edit_asset" >Assign to doctor</a></li>
-
-                                                    <li><a href="assigntospecialist.php?aset=<?=  base64_encode($values->id);  ?>" class="dropdown-item font-weight-bold edit_asset" >Assign to Specialist</a></li>
-
-                                                    <li><a href="admitpatients.php?aset=<?=  base64_encode($values->id);  ?>" class="dropdown-item font-weight-bold edit_asset" >Admit Patient</a></li>
-
+                                                    <li><a href="add.php" class="dropdown-item font-weight-bold edit_asset" > Add</a></li>
+                                                    <li><a href="requested.php" class="dropdown-item font-weight-bold edit_asset" >Requested</a></li>
+                                                    <li><a href="pending.php" class="dropdown-item font-weight-bold edit_asset" >Pending</a></li>
+                                                    <li><a href="completed.php" class="dropdown-item font-weight-bold edit_asset" >Completed</a></li>
+                                                    <li><a href="approved.php" class="dropdown-item font-weight-bold edit_asset" >Approved</a></li>
                                                 </ul>
                                             </div>
 

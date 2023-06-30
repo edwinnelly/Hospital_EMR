@@ -17,20 +17,20 @@
                                     alt="icons"> <span class="side_bar_adjust">Patients Profile</span></a>
                         </li>
                         <li>
-                            <a href="out-patient.php"><img src="https://cdn-icons-png.flaticon.com/128/9733/9733533.png" height="21"
-                                    alt="icons"> <span class="side_bar_adjust">Out Patients</span></a>
+                            <a href="sample-tracking.php"><img src="https://cdn-icons-png.flaticon.com/128/3335/3335717.png" height="21"
+                                    alt="icons"> <span class="side_bar_adjust">Sample Tracking</span></a>
                         </li>
                         <li>
-                            <a href="in-patients.php"><img
-                                    src="https://cdn-icons-png.flaticon.com/128/3359/3359183.png" alt="icons"
-                                    height="21"> <span class="side_bar_adjust">In Patients</span></a>
+                            <a href="lab-department.php"><img
+                                    src="https://cdn-icons-png.flaticon.com/128/10206/10206814.png" alt="icons"
+                                    height="21"> <span class="side_bar_adjust">Lab Department</span></a>
                         </li>
 
 
                         <li>
-                            <a href="message.php"><img
-                                    src="https://cdn-icons-png.flaticon.com/128/542/542638.png" alt="icons"
-                                    height="21"> <span class="side_bar_adjust">Message</span></a>
+                            <a href="lab-setup.php"><img
+                                    src="https://cdn-icons-png.flaticon.com/128/857/857498.png" alt="icons"
+                                    height="21"> <span class="side_bar_adjust">Lab SetUp</span></a>
                         </li>
 
 

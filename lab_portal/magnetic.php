@@ -18,10 +18,10 @@
                     <div class="row">
                         <div class="col-lg-5 col-md-8 col-sm-12">
                             <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i
-                                        class="fa fa-arrow-left"></i></a>Prescription</h2>
+                                        class="fa fa-arrow-left"></i></a> Magnetic Resistance Suite</h2>
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="user_dir.php"><i class="icon-home"></i></a></li>
-                                <li class="breadcrumb-item active">Prescription</li>
+                                <li class="breadcrumb-item active"> Magnetic Resistance Suite</li>
                             </ul>
                         </div>
                         <div class="col-lg-7 col-md-4 col-sm-12 text-right">
@@ -36,39 +36,21 @@
                                 <?php include_once "component/patients_profile_sidebar.php"?>
                                 <div class="mail-right">
                                     <div class="header d-flex align-center">
-                                        <h2>Prescription</h2>
+                                        <h2> Magnetic Resistance Suite</h2>
                                     </div>
                                     <div class="row clearfix">
                                         <div class="col-lg-12 col-md-12">
-                                            <div class="card mt-4 pb-4">
-                                                <div class="d-flex">
-                                                    <div class="image pl-3">
-                                                        <img src="https://maxsomwares.com/doctor/img/log.png"
-                                                            height="100px">
-                                                    </div>
-                                                    <div class="mt-2 ml-3">
-                                                        <h4>Bianca</h4>
-                                                        <!-- <p class="">Appointment / Bookings</p> -->
-                                                        <button class="btn btn-success btn-sm mr-3" data-toggle="modal"
-                                                            data-target="#exampleModal">Add Prescription</button>
-                                                        <button class="pull-right btn btn-primary btn-sm">Print</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card mt-4 pl-4">
+                                            <div class="card pl-4">
                                                 <div class="body table-responsive">
                                                     <table
                                                         class="table table-bordered table-hover js-basic-example dataTable table-custom">
                                                         <thead>
                                                             <tr>
                                                                 <th> #</th>
-                                                                <th>Drug Name</th>
-                                                                <th>Frequency</th>
-                                                                <th>Duration</th>
-                                                                <th>Quantity</th>
-                                                                <th>Added Date</th>
-                                                                <th>Med Status</th>
-                                                                <th>Status</th>
+                                                                <th>Patients Name</th>
+                                                                <th>Test Name</th>
+                                                                <th>Sample</th>
+                                                                <th>Sample no</th>
                                                                 <th>Action</th>
                                                             </tr>
                                                         </thead>
@@ -76,12 +58,9 @@
                                                             <tr>
                                                                 <th scope="row"></th>
                                                                 <td>Yello</td>
-                                                                <td>...</td>
-                                                                <td>23</td>
                                                                 <td>M</td>
-                                                                <td>...</td>
-                                                                <td>...</td>
-                                                                <td>...</td>
+                                                                <td>23</td>
+                                                                <td>23</td>
                                                                 <td>
                                                                     <div class="btn-group" role="group">
                                                                         <button id="btnGroupDrop1" type="button"
@@ -94,12 +73,9 @@
                                                                             aria-labelledby="btnGroupDrop1"
                                                                             x-placement="top-start"
                                                                             style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                                                            <a class="dropdown-item" href="drug-chart.php">Drug Chart
-                                                                            </a>
                                                                             <a class="dropdown-item"
-                                                                                href="#">Discontinue Medication</a>
-                                                                            <a class="dropdown-item" href="#">Delete
-                                                                                Medication</a>
+                                                                                href="edit-department.php">Edit </a>
+                                                                            <a class="dropdown-item" href="#">Delete</a>
                                                                         </div>
                                                                     </div>
                                                                 </td>
@@ -111,7 +87,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>

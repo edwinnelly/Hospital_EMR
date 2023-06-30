@@ -1,43 +1,38 @@
 <div class="mail-left collapse" id="email-nav">
     <div class="mail-compose m-b-20">
-        <a href="#" class="btn btn-danger btn-block text-white">Patient Profile</a>
+        <a href="#" class="btn btn-danger btn-block text-white">Lab Department</a>
     </div>
     <div class="mail-side">
         <ul class="nav">
-            <li class=""><a href="patients-folder.php"><i class="fa fa-circle-o text-danger"></i>Patients
-                    Dashboard</a>
+            <li class=""><a href="lab-department.php"><i class="fa fa-circle-o text-danger"></i>Lab Department
+                </a>
             </li>
-            <li class=""><a href="visitors.php"><i class="fa fa-circle-o text-danger"></i>Visit/Appointments</a>
+            <li class=""><a href="chemistry.php"><i class="fa fa-circle-o text-danger"></i>Chemistry</a>
             </li>
-            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Diagnosis
-                    History</a>
+            <li class=""><a href="microbiology.php"><i class="fa fa-circle-o text-danger"></i>Microbiology</a>
             </li>
-            <li class=""><a href="prescription.php"><i class="fa fa-circle-o text-danger"></i>Prescription</a></li>
-            <li class=""><a href="drug-administration.php"><i class="fa fa-circle-o text-danger"></i>Drug
-                    Administration</a>
+            <li class=""><a href="transfusion.php"><i class="fa fa-circle-o text-danger"></i>Transfusion Service/ Immunology</a></li>
+            <li class=""><a href="immunology.php"><i class="fa fa-circle-o text-danger"></i>Immunology</a>
             </li>
-            <li class=""><a href="lab-profile.php"><i class="fa fa-circle-o text-danger"></i>Lab
-                    Profile</a></li>
-            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Patient
-                    Bills</a></li>
-            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Patient
-                    Alert</a></li>
-            <li class=""><a href="referrals.php"><i class="fa fa-circle-o text-danger"></i>Referrals</a></li>
-            <li class=""><a href="medical-reports.php"><i class="fa fa-circle-o text-danger"></i>Medical
-                    Reports</a></li>
-            <li class=""><a href="discharge.php"><i class="fa fa-circle-o text-danger"></i>Discharge
-                    Summary</a>
+            <li class=""><a href="surgical-pathology.php"><i class="fa fa-circle-o text-danger"></i>Surgical Pathology</a></li>
+            <li class=""><a href="cytology.php"><i class="fa fa-circle-o text-danger"></i>Cytology</a></li>
+            <li class=""><a href="ultra-sound.php"><i class="fa fa-circle-o text-danger"></i>Ultrasound Suite</a></li>
+            <li class=""><a href="x-ray.php"><i class="fa fa-circle-o text-danger"></i>X-ray Suite</a></li>
+            <li class=""><a href="fluoroscopy.php"><i class="fa fa-circle-o text-danger"></i>Fluoroscopy Suite</a></li>
+            <li class=""><a href="electrophysiology.php"><i class="fa fa-circle-o text-danger"></i>Electrophysiology Suite</a>
             </li>
-            <li class=""><a href="imaging.php"><i class="fa fa-circle-o text-danger"></i>Imaging/Attachment</a>
+            <li class=""><a href="computed.php"><i class="fa fa-circle-o text-danger"></i>Computed Tomography</a>
+            </li>
+            <li class=""><a href="magnetic.php"><i class="fa fa-circle-o text-danger"></i>Magnetic Resistance Suite</a>
             </li>
             <h3 class="label">Extra Setting <a href="#" class="float-right m-r-10" title="Extra Setting"></a></h3>
-            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Discharge/Close</a>
+            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Samples</a>
             </li>
-            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Seen/Back</a>
+            <li class=""><a href="#"><i class="fa fa-circle-o text-danger"></i>Container</a>
             </li>
         </ul>
 
-        <h3 class="label">Case Note</h3>
+        <!-- <h3 class="label">Case Note</h3>
         <ul class="nav">
             <li class="">
                 <a href="encounter.php"><i class="fa fa-circle text-danger"></i>Encounters</a>
@@ -60,6 +55,6 @@
             <li>
                 <a href="comments.php"><i class="fa fa-circle text-danger"></i>Comments</a>
             </li>
-        </ul>
+        </ul> -->
     </div>
 </div>

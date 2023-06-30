@@ -66,7 +66,7 @@ $app = new controller;
                                                 </div>
                                                 <div class="col-lg-12 col-md-12 col-sm-12">
                                                     <div class="form-group">
-                                                        <label for="phone" class="control-label">Doctor
+                                                        <label for="phone" class="control-label">
                                                             Fullname</label>
                                                         <input type="text" name="vcode" id="text" class="form-control"
                                                             placeholder="Doctors Fullname">

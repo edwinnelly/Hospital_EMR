@@ -6,9 +6,7 @@
 </head>
 
 <body class="theme-cyan">
-
     <?php include_once "component/page-loader.php"?>
-
     <div id="wrapper">
         <?php 
    include_once "component/header.php";
@@ -20,10 +18,10 @@
                     <div class="row">
                         <div class="col-lg-5 col-md-8 col-sm-12">
                             <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i
-                                        class="fa fa-arrow-left"></i></a>Referral Letter</h2>
+                                        class="fa fa-arrow-left"></i></a>Lab Department</h2>
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="user_dir.php"><i class="icon-home"></i></a></li>
-                                <li class="breadcrumb-item active">Referral Letter</li>
+                                <li class="breadcrumb-item active">Lab Department</li>
                             </ul>
                         </div>
                         <div class="col-lg-7 col-md-4 col-sm-12 text-right">
@@ -34,76 +32,108 @@
                 <div class="row clearfix">
                     <div class="col-lg-12">
                         <div class="card">
-
                             <div class="mail-inbox">
                                 <?php include_once "component/patients_profile_sidebar.php"?>
                                 <div class="mail-right">
-                                    <div class="header d-flex align-center">
-                                        <h2>Referral Letter Folder</h2>
+                                    <div class="header d-flex align-center"><a href="lab-department.php"><i
+                                        class="fa fa-arrow-left mr-2"></i></a>Lab Department</h2>
                                     </div>
                                     <div class="row clearfix">
-                                        <div class="col-lg-7 col-md-12">
-                                            <div class="card mt-4 pb-4">
-                                                <div class="d-flex">
-                                                    <div class="image pl-3">
-                                                        <img src="https://maxsomwares.com/doctor/img/log.png"
-                                                            height="100px">
-                                                    </div>
-                                                    <div class="mt-2 ml-3">
-                                                        <h4>Bianca</h4>
-                                                        <button class="btn btn-success btn-sm" data-toggle="modal"
-                                                            data-target="#exampleModal">Add Referral Note</button>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="col-lg-12 col-md-12">
                                             <div class="card mt-4 pl-4">
-                                                <div class="timeline-item green">
-                                                    <span class="">Referral ID</span>
-                                                    <h5>Referral Note Title</h5>
-                                                    <div class="msg">
-                                                        <p>I'm speaking with myself, number one, because I have a very
-                                                            good brain and I've said a lot of things. I write the best
-                                                            placeholder text, and I'm the biggest developer on the web
-                                                            card she has is the Lorem card.</p>
-                                                        <h6>Posted By Dr Nelly Eke</h6>
-                                                        <p class="text-success mb-3">2022-04-01</p>
-                                                        <div class="d-flex">
-                                                            <!-- <button class="btn btn-success btn-sm">Delete Note</button> -->
-                                                        </div>
-                                                    </div>
+                                                <div class="body table-responsive">
+                                                    <table
+                                                        class="table table-bordered table-hover js-basic-example dataTable table-custom">
+                                                        <thead>
+                                                            <tr>
+                                                                <th> #</th>
+                                                                <th>Lab Department Test</th>
+                                                                <th>Added Date</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th scope="row"></th>
+                                                                <td>Yello</td>
+                                                                <td>23</td>
+                                                                <td>
+                                                                    <div class="btn-group" role="group">
+                                                                        <button id="btnGroupDrop1" type="button"
+                                                                            class="btn btn-primary dropdown-toggle "
+                                                                            data-toggle="dropdown" aria-haspopup="true"
+                                                                            aria-expanded="false">
+                                                                            Action
+                                                                        </button>
+                                                                        <div class="dropdown-menu"
+                                                                            aria-labelledby="btnGroupDrop1"
+                                                                            x-placement="top-start"
+                                                                            style="position: absolute; transform: translate3d(0px, -2px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                                            <a class="dropdown-item" href="#">Cancel Test</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
                                                 </div>
                                             </div>
                                         </div>
-                                        <?php include_once "component/patients-overview.php"?>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <!-- modal start -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel"
             aria-hidden="true">>
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h6 class="title font-weight-bold" id="defaultModalLabel">Add Note</h6>
+                    <div class="modal-header d-block">
+                        <h6 class="title font-weight-bold" id="defaultModalLabel">Add New Prescriptiont</h6>
+                        <small class="text-secondary">You can add and assign drugs to patients.</small>
                     </div>
 
                     <div class="modal-body">
                         <form id="postcatdel" method="post">
                             <div class="row">
                                 <div class="col-sm-12 col-md-12 mb-3">
-                                    <label for="exampleFormControlTextarea1">Edit Note</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <label for="" class="fw-bold mb-2">Choose Drugs</label>
+                                    <select class="form-select form-select-sm form-control"
+                                        aria-label=".form-select-sm example">
+                                        <option selected>Choose Category</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-12 col-md-12 mb-3">
+                                    <label for="" class="fw-bold mb-2">Duration</label>
+                                    <input type="text" placeholder="Duration" class="form-control" name="catname"
+                                        id="catname" required>
+                                    <input type="hidden" name="cpid" id="cpids">
+                                </div>
+                                <div class="col-sm-12 col-md-12 mb-3">
+                                    <label for="" class="fw-bold mb-2">Quantity</label>
+                                    <input type="text" placeholder="Quantity" class="form-control" name="catname"
+                                        id="catname" required>
+                                    <input type="hidden" name="cpid" id="cpids">
+                                </div>
+                                <div class="col-sm-12 col-md-12 mb-3">
+                                    <label for="" class="fw-bold mb-2">Choose Frequency</label>
+                                    <select class="form-select form-select-sm form-control"
+                                        aria-label=".form-select-sm example">
+                                        <option selected>Choose Category</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
                                 </div>
                             </div>
                     </div>
-
                     <div class="modal-footer">
                         <input type="submit" class="btn btn-primary font-weight-bold" id="" value="Add">
                         <button type="button" class="btn btn-danger" data-dismiss="modal">X</button>
