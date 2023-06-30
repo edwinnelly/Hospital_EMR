@@ -32,6 +32,11 @@
                                     src="https://cdn-icons-png.flaticon.com/128/857/857498.png" alt="icons"
                                     height="21"> <span class="side_bar_adjust">Lab SetUp</span></a>
                         </li>
+                        <li>
+                            <a href="message.php"><img
+                                    src="https://cdn-icons-png.flaticon.com/128/542/542638.png" alt="icons"
+                                    height="21"> <span class="side_bar_adjust">Lab SetUp</span></a>
+                        </li>
 
 
                         <li>
