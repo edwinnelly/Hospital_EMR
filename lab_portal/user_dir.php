@@ -22,7 +22,7 @@ $app = new controller;
                     <div class="col-lg-5 col-md-8 col-sm-12">
                         <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i class="fa fa-arrow-left"></i></a>Welcome back, Doctor Edwom</h2>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item active">You have 345  Item and 412 new customers.</li>
+                            <li class="breadcrumb-item active">You have 345  Item and 412 new Patients.</li>
                         </ul>
                     </div>
                     <div class="col-lg-7 col-md-4 col-sm-12 text-right">
@@ -48,7 +48,7 @@ $app = new controller;
                     <div class="card overflowhidden">
                         <div class="body">
                             <h3>34 </h3>
-                            <span>In Patients</span>
+                            <span>Total Patients</span>
                         </div>
                         <div class="progress progress-xs progress-transparent custom-color-blue m-b-0">
                             <div class="progress-bar" data-transitiongoal="64"></div>
@@ -59,7 +59,7 @@ $app = new controller;
                     <div class="card overflowhidden">
                         <div class="body">
                             <h3> 65 </h3>
-                            <span>Out Patients</span>
+                            <span>Total Staff</span>
                         </div>
                         <div class="progress progress-xs progress-transparent custom-color-purple m-b-0">
                             <div class="progress-bar" data-transitiongoal="67"></div>
@@ -70,7 +70,7 @@ $app = new controller;
                     <div class="card overflowhidden">
                         <div class="body">
                             <h3>32 </h3>
-                            <span>New Messages</span>
+                            <span>In Lab/Assets</span>
                         </div>
                         <div class="progress progress-xs progress-transparent custom-color-yellow m-b-0">
                             <div class="progress-bar" data-transitiongoal="89"></div>
@@ -81,7 +81,7 @@ $app = new controller;
                     <div class="card overflowhidden">
                         <div class="body">
                             <h3>0 </h3>
-                            <span>Completed In Patients/ Out Patients</span>
+                            <span>Lab Branches</span>
                         </div>
                         <div class="progress progress-xs progress-transparent custom-color-green m-b-0">
                             <div class="progress-bar" data-transitiongoal="68"></div>
@@ -93,31 +93,31 @@ $app = new controller;
                 <div class="col-lg-12 col-md-12">
                     <div class="card">
                         <div class="header">
-                            <h2>Annual Report <small>Description text here...</small></h2>
+                            <h2>Lab Finances</h2>
 
                         </div>
                         <div class="body">
                             <div class="row clearfix">
                                 <div class="col-lg-3 col-md-3 col-sm-3">
-                                    <span class="text-muted">Sales Report</span>
-                                    <h3 class="text-warning">₦</h3>
+                                    <span class="text-muted">Total Daily Income</span>
+                                    <h3 class="text-warning">₦3</h3>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3">
-                                    <span class="text-muted">Annual Revenue </span>
-                                    <h3 class="text-info">₦</h3>
+                                    <span class="text-muted">Total Monthly Income </span>
+                                    <h3 class="text-info">₦500</h3>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3">
-                                    <span class="text-muted">Total Profit</span>
-                                    <h3 class="text-success">₦</h3>
+                                    <span class="text-muted">Total Yearly Income</span>
+                                    <h3 class="text-success">₦1000</h3>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3">
-                                    <span class="text-muted">Total Loss</span>
-                                    <h3 class="text-success">₦</h3>
+                                    <span class="text-muted">Total Expenses</span>
+                                    <h3 class="text-success">₦10000</h3>
                                 </div>
 
                             </div>
 
-                            <!--<div id="area_chart" class="graph"></div>-->
+                            <!-- <div id="area_chart" class="graph"></div> -->
                         </div>
 
                     </div>
@@ -129,7 +129,7 @@ $app = new controller;
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="card">
                         <div class="header">
-                            <h2>Recent Transactions</h2>
+                            <h2>Lab Data</h2>
 
                         </div>
                         <div class="body">
