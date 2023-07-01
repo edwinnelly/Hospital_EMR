@@ -20,10 +20,10 @@
                     <div class="row">
                         <div class="col-lg-5 col-md-8 col-sm-12">
                             <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i
-                                        class="fa fa-arrow-left"></i></a>Lab Profile</h2>
+                                        class="fa fa-arrow-left"></i></a>Add Patients Profile</h2>
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="user_dir.php"><i class="icon-home"></i></a></li>
-                                <li class="breadcrumb-item active">Lab Profile</li>
+                                <li class="breadcrumb-item active">Add Patients Profile</li>
                             </ul>
                         </div>
                         <div class="col-lg-7 col-md-4 col-sm-12 text-right">

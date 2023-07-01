@@ -4,7 +4,7 @@
     </div>
     <div class="mail-side">
         <ul class="nav">
-            <li class=""><a href="lab-department.php"><i class="fa fa-circle-o text-danger"></i>Image Approval
+            <li class=""><a href="imaging.php"><i class="fa fa-circle-o text-danger"></i>Imaging Approval
                 </a>
             </li>
             <li class=""><a href="chemistry.php"><i class="fa fa-circle-o text-danger"></i>Chemistry</a>

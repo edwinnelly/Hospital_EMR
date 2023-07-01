@@ -21,14 +21,14 @@
                                     alt="icons"> <span class="side_bar_adjust">Contrast</span></a>
                         </li>
                         <li>
-                            <a href="lab-department.php"><img
+                            <a href="imaging.php"><img
                                     src="https://cdn-icons-png.flaticon.com/128/739/739249.png" alt="icons"
                                     height="21"> <span class="side_bar_adjust">Imaging Approval</span></a>
                         </li>
 
 
                         <li>
-                            <a href="lab-setup.php"><img
+                            <a href="diagnostics.php"><img
                                     src="https://cdn-icons-png.flaticon.com/128/10299/10299293.png" alt="icons"
                                     height="21"> <span class="side_bar_adjust">Diagnostics suite</span></a>
                         </li>
