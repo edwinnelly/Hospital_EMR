@@ -1,129 +1,102 @@
-[31-Oct-2022 06:21:40 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[31-Oct-2022 06:21:40 UTC] PHP Notice:  Undefined property: stdClass::$category_name in /home/funfsvly/maxsomwares.com/pharmacy/lab_accout.php on line 287
-[31-Oct-2022 06:21:40 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/lab_accout.php on line 298
-[31-Oct-2022 06:21:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_accout.php on line 298
-[31-Oct-2022 06:21:40 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/lab_accout.php on line 311
-[31-Oct-2022 06:21:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_accout.php on line 311
-[31-Oct-2022 06:21:40 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/lab_accout.php on line 323
-[31-Oct-2022 06:21:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_accout.php on line 323
-[03-Nov-2022 05:57:07 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[03-Nov-2022 05:57:07 UTC] PHP Notice:  Undefined property: stdClass::$category_name in /home/funfsvly/maxsomwares.com/pharmacy/host_patients.php on line 307
-[03-Nov-2022 05:57:07 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/host_patients.php on line 318
-[03-Nov-2022 05:57:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/host_patients.php on line 318
-[03-Nov-2022 05:57:07 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/host_patients.php on line 331
-[03-Nov-2022 05:57:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/host_patients.php on line 331
-[03-Nov-2022 05:57:07 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/host_patients.php on line 343
-[03-Nov-2022 05:57:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/host_patients.php on line 343
-[07-Nov-2022 00:28:22 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[07-Nov-2022 00:28:22 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 309
-[07-Nov-2022 00:28:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 309
-[07-Nov-2022 00:28:22 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 322
-[07-Nov-2022 00:28:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 322
-[07-Nov-2022 00:28:22 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 334
-[07-Nov-2022 00:28:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 334
-[11-Nov-2022 23:27:10 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[16-Nov-2022 08:12:31 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[24-Nov-2022 17:47:09 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[10-Dec-2022 14:29:51 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[13-Dec-2022 09:54:51 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[18-Dec-2022 10:07:26 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[23-Dec-2022 22:43:21 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[23-Dec-2022 22:43:21 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 309
-[23-Dec-2022 22:43:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 309
-[23-Dec-2022 22:43:21 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 322
-[23-Dec-2022 22:43:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 322
-[23-Dec-2022 22:43:21 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 334
-[23-Dec-2022 22:43:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 334
-[25-Dec-2022 03:51:26 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[25-Dec-2022 03:51:26 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/host_outpatient_all.php on line 373
-[25-Dec-2022 03:51:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/host_outpatient_all.php on line 373
-[25-Dec-2022 03:51:26 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/host_outpatient_all.php on line 387
-[25-Dec-2022 03:51:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/host_outpatient_all.php on line 387
-[25-Dec-2022 03:51:26 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/host_outpatient_all.php on line 400
-[25-Dec-2022 03:51:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/host_outpatient_all.php on line 400
-[17-Jan-2023 05:55:02 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[17-Jan-2023 05:55:02 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/host_outpatient_all.php on line 373
-[17-Jan-2023 05:55:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/host_outpatient_all.php on line 373
-[17-Jan-2023 05:55:02 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/host_outpatient_all.php on line 387
-[17-Jan-2023 05:55:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/host_outpatient_all.php on line 387
-[17-Jan-2023 05:55:02 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/host_outpatient_all.php on line 400
-[17-Jan-2023 05:55:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/host_outpatient_all.php on line 400
-[21-Jan-2023 14:23:54 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[21-Jan-2023 14:23:54 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/lab_payments.php on line 312
-[21-Jan-2023 14:23:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_payments.php on line 312
-[21-Jan-2023 14:23:54 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/lab_payments.php on line 325
-[21-Jan-2023 14:23:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_payments.php on line 325
-[21-Jan-2023 14:23:54 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/lab_payments.php on line 337
-[21-Jan-2023 14:23:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_payments.php on line 337
-[29-Jan-2023 04:19:44 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[29-Jan-2023 04:19:44 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee_today.php on line 309
-[29-Jan-2023 04:19:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee_today.php on line 309
-[29-Jan-2023 04:19:44 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee_today.php on line 322
-[29-Jan-2023 04:19:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee_today.php on line 322
-[29-Jan-2023 04:19:44 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee_today.php on line 334
-[29-Jan-2023 04:19:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee_today.php on line 334
-[02-Feb-2023 08:54:19 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[03-Feb-2023 08:55:53 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[11-Feb-2023 14:46:10 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[11-Feb-2023 14:46:10 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 309
-[11-Feb-2023 14:46:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 309
-[11-Feb-2023 14:46:10 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 322
-[11-Feb-2023 14:46:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 322
-[11-Feb-2023 14:46:10 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 334
-[11-Feb-2023 14:46:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 334
-[19-Feb-2023 06:15:42 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[19-Feb-2023 06:15:42 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/host_doc_specialist.php on line 365
-[19-Feb-2023 06:15:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/host_doc_specialist.php on line 365
-[19-Feb-2023 06:15:42 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/host_doc_specialist.php on line 379
-[19-Feb-2023 06:15:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/host_doc_specialist.php on line 379
-[19-Feb-2023 06:15:42 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/host_doc_specialist.php on line 392
-[19-Feb-2023 06:15:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/host_doc_specialist.php on line 392
-[24-Feb-2023 06:21:17 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[01-Mar-2023 01:20:27 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[03-Mar-2023 17:39:30 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[21-Mar-2023 10:06:03 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[22-Mar-2023 02:52:56 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[22-Mar-2023 02:52:56 UTC] PHP Notice:  Undefined variable: hospital_operation in /home/funfsvly/maxsomwares.com/pharmacy/add_patients.php on line 275
-[22-Mar-2023 02:52:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/add_patients.php on line 275
-[04-Apr-2023 21:47:49 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[04-Apr-2023 21:47:49 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 309
-[04-Apr-2023 21:47:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 309
-[04-Apr-2023 21:47:49 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 322
-[04-Apr-2023 21:47:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 322
-[04-Apr-2023 21:47:49 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 334
-[04-Apr-2023 21:47:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 334
-[11-Apr-2023 20:16:18 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[14-Apr-2023 09:59:48 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[14-Apr-2023 09:59:48 UTC] PHP Notice:  Undefined variable: lab_list_dpt in /home/funfsvly/maxsomwares.com/pharmacy/inventory_setups.php on line 429
-[14-Apr-2023 09:59:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/inventory_setups.php on line 429
-[14-Apr-2023 09:59:48 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/inventory_setups.php on line 442
-[14-Apr-2023 09:59:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/inventory_setups.php on line 442
-[14-Apr-2023 09:59:48 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/inventory_setups.php on line 455
-[14-Apr-2023 09:59:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/inventory_setups.php on line 455
-[14-Apr-2023 09:59:48 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/inventory_setups.php on line 467
-[14-Apr-2023 09:59:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/inventory_setups.php on line 467
-[18-Apr-2023 00:49:29 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[22-Apr-2023 17:52:37 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[22-Apr-2023 17:52:37 UTC] PHP Notice:  Undefined property: stdClass::$category_name in /home/funfsvly/maxsomwares.com/pharmacy/ward_data.php on line 332
-[22-Apr-2023 17:52:37 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/ward_data.php on line 343
-[22-Apr-2023 17:52:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/ward_data.php on line 343
-[22-Apr-2023 17:52:37 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/ward_data.php on line 356
-[22-Apr-2023 17:52:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/ward_data.php on line 356
-[22-Apr-2023 17:52:37 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/ward_data.php on line 368
-[22-Apr-2023 17:52:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/ward_data.php on line 368
-[22-Apr-2023 23:34:30 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[25-May-2023 01:33:11 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[25-May-2023 01:33:11 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 309
-[25-May-2023 01:33:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 309
-[25-May-2023 01:33:11 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 322
-[25-May-2023 01:33:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 322
-[25-May-2023 01:33:11 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 334
-[25-May-2023 01:33:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/lab_quee.php on line 334
-[16-Jun-2023 21:20:07 UTC] PHP Notice:  Undefined index: login_user in /home/funfsvly/maxsomwares.com/pharmacy/inc/user_data.php on line 11
-[16-Jun-2023 21:20:08 UTC] PHP Notice:  Undefined property: stdClass::$category_name in /home/funfsvly/maxsomwares.com/pharmacy/setup_patients.php on line 308
-[16-Jun-2023 21:20:08 UTC] PHP Notice:  Undefined variable: lab_samples in /home/funfsvly/maxsomwares.com/pharmacy/setup_patients.php on line 319
-[16-Jun-2023 21:20:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/setup_patients.php on line 319
-[16-Jun-2023 21:20:08 UTC] PHP Notice:  Undefined variable: lab_container in /home/funfsvly/maxsomwares.com/pharmacy/setup_patients.php on line 332
-[16-Jun-2023 21:20:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/setup_patients.php on line 332
-[16-Jun-2023 21:20:08 UTC] PHP Notice:  Undefined variable: lab_restrition in /home/funfsvly/maxsomwares.com/pharmacy/setup_patients.php on line 344
-[16-Jun-2023 21:20:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/funfsvly/maxsomwares.com/pharmacy/setup_patients.php on line 344
+[12-Dec-2022 09:42:52 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'lentprqi_lentose_oma_ama'@'localhost' (using password: YES) in /home/lentprqi/public_html/master/component/db-config.php on line 16
+[12-Dec-2022 09:42:52 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 35
+[12-Dec-2022 09:42:52 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 39
+[12-Dec-2022 09:42:52 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 28
+[12-Dec-2022 09:42:52 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/lentprqi/public_html/master/component/db-config.php on line 56
+[12-Dec-2022 09:42:55 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'lentprqi_lentose_oma_ama'@'localhost' (using password: YES) in /home/lentprqi/public_html/master/component/db-config.php on line 16
+[12-Dec-2022 09:42:55 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 35
+[12-Dec-2022 09:42:55 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 39
+[12-Dec-2022 09:42:55 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 28
+[12-Dec-2022 09:42:55 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/lentprqi/public_html/master/component/db-config.php on line 56
+[12-Dec-2022 09:42:56 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'lentprqi_lentose_oma_ama'@'localhost' (using password: YES) in /home/lentprqi/public_html/master/component/db-config.php on line 16
+[12-Dec-2022 09:42:56 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 35
+[12-Dec-2022 09:42:56 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 39
+[12-Dec-2022 09:42:56 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 28
+[12-Dec-2022 09:42:56 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/lentprqi/public_html/master/component/db-config.php on line 56
+[12-Dec-2022 09:42:58 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'lentprqi_lentose_oma_ama'@'localhost' (using password: YES) in /home/lentprqi/public_html/master/component/db-config.php on line 16
+[12-Dec-2022 09:42:58 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 35
+[12-Dec-2022 09:42:58 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 39
+[12-Dec-2022 09:42:58 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 28
+[12-Dec-2022 09:42:58 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/lentprqi/public_html/master/component/db-config.php on line 56
+[12-Dec-2022 09:43:32 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'lentprqi_lentose_oma_ama'@'localhost' (using password: YES) in /home/lentprqi/public_html/master/component/db-config.php on line 16
+[12-Dec-2022 09:43:32 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 35
+[12-Dec-2022 09:43:32 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 39
+[12-Dec-2022 09:43:32 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 28
+[12-Dec-2022 09:43:32 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/lentprqi/public_html/master/component/db-config.php on line 56
+[12-Dec-2022 09:43:37 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'lentprqi_lentose_oma_ama'@'localhost' (using password: YES) in /home/lentprqi/public_html/master/component/db-config.php on line 16
+[12-Dec-2022 09:43:37 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 35
+[12-Dec-2022 09:43:37 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 39
+[12-Dec-2022 09:43:37 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 28
+[12-Dec-2022 09:43:37 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/lentprqi/public_html/master/component/db-config.php on line 56
+[12-Dec-2022 09:44:01 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'lentprqi_lentose_oma_ama'@'localhost' (using password: YES) in /home/lentprqi/public_html/master/component/db-config.php on line 16
+[12-Dec-2022 09:44:01 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 35
+[12-Dec-2022 09:44:01 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 39
+[12-Dec-2022 09:44:01 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 28
+[12-Dec-2022 09:44:01 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/lentprqi/public_html/master/component/db-config.php on line 56
+[12-Dec-2022 09:46:21 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'lentprqi_lentose_oma_ama'@'localhost' (using password: YES) in /home/lentprqi/public_html/master/component/db-config.php on line 16
+[12-Dec-2022 09:46:21 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 35
+[12-Dec-2022 09:46:21 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 39
+[12-Dec-2022 09:46:21 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, string given in /home/lentprqi/public_html/master/component/db-config.php on line 28
+[12-Dec-2022 09:46:21 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/lentprqi/public_html/master/component/db-config.php on line 56
+[14-Dec-2022 06:04:22 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[14-Dec-2022 06:04:22 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[14-Dec-2022 06:16:10 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[14-Dec-2022 06:16:10 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[14-Dec-2022 22:49:20 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[14-Dec-2022 22:49:20 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[15-Dec-2022 23:14:31 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[15-Dec-2022 23:14:31 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[15-Dec-2022 23:17:23 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[15-Dec-2022 23:17:23 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[15-Dec-2022 23:18:24 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[15-Dec-2022 23:18:24 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[28-Dec-2022 13:50:52 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[28-Dec-2022 13:50:52 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[28-Dec-2022 13:51:43 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[28-Dec-2022 13:51:43 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[28-Dec-2022 13:53:34 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[28-Dec-2022 13:53:34 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[28-Dec-2022 13:53:58 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[28-Dec-2022 13:53:58 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[29-Dec-2022 02:48:50 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[29-Dec-2022 02:48:50 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[03-Jan-2023 03:45:54 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[03-Jan-2023 03:45:54 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[07-Jan-2023 05:38:28 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[07-Jan-2023 05:38:28 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[07-Jan-2023 08:22:39 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[07-Jan-2023 08:22:39 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[07-Jan-2023 08:35:52 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[07-Jan-2023 08:35:52 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[07-Jan-2023 08:39:33 America/New_York] PHP Notice:  Undefined variable: userInfo in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[07-Jan-2023 08:39:33 America/New_York] PHP Notice:  Trying to get property 'business_name' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 7
+[30-Jan-2023 13:07:58 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:07:58 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:28:12 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:28:12 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:28:13 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:28:13 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:29:08 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:29:08 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:29:28 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:29:28 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:29:48 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:29:48 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:43:05 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:43:05 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:44:45 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[30-Jan-2023 13:44:45 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[07-Feb-2023 16:58:58 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[07-Feb-2023 16:58:58 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[07-Feb-2023 16:59:09 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[07-Feb-2023 16:59:09 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[07-Feb-2023 16:59:26 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[07-Feb-2023 16:59:26 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[02-Mar-2023 07:30:38 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[02-Mar-2023 07:30:38 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[02-Mar-2023 07:30:45 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[02-Mar-2023 07:30:45 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[02-Mar-2023 07:30:56 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[02-Mar-2023 07:30:56 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[02-Mar-2023 09:40:45 America/New_York] PHP Notice:  Undefined variable: cc in /home/lentprqi/public_html/master/component/sidebar.php on line 19
+[02-Mar-2023 09:40:45 America/New_York] PHP Notice:  Trying to get property 'total_prod' of non-object in /home/lentprqi/public_html/master/component/sidebar.php on line 19
