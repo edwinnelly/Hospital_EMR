@@ -41,7 +41,7 @@ $app = new controller;
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="header">
-                            <h2> In Patients</h2>
+                            <h2>Patients Profile</h2>
                         </div>
                         <div class="col-lg-12 ">
 
